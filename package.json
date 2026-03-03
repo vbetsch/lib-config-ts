@@ -1,5 +1,5 @@
 {
-  "name": "@vbetsch/config",
+  "name": "@vbetsch/lib-config-ts",
   "version": "0.3.0",
   "type": "module",
   "description": "My TypeScript configuration",
