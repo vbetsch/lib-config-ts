@@ -8,7 +8,6 @@
     "./eslint/cli": "./src/eslint/cli.mjs",
     "./prettier/base": "./src/prettier/base.mjs",
     "./prettier/cli": "./src/prettier/cli.mjs",
-    "./tsconfig/base": "./src/tsconfig/base.js",
     "./tsconfig/base.json": "./src/tsconfig/base.json",
     "./tsconfig/cli.json": "./src/tsconfig/cli/base.json",
     "./tsconfig/cli/build.json": "./src/tsconfig/cli/build.json"
