@@ -5,7 +5,7 @@
   "description": "My TypeScript configuration",
   "exports": {
     "./eslint/base": "./eslint/base.mjs",
-    "./eslint/astro": "./eslint/astro.mjs",
+    "./eslint/cli": "./eslint/cli.mjs",
     "./prettier": "./prettier/index.json"
   },
   "files": [
