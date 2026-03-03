@@ -3,7 +3,7 @@ import globals from 'globals';
 
 export default tseslint.config(
   {
-    ignores: ['dist/**', 'node_modules/**'],
+    ignores: ['dist/**', 'node_modules/**', 'eslint.*'],
   },
   {
     files: ['**/*.{ts,mts,cts,js,mjs,cjs}'],
