@@ -15,8 +15,7 @@
   "files": [
     "src/eslint",
     "src/prettier",
-    "src/tsconfig",
-    "src/tsconfig/cli"
+    "src/tsconfig"
   ],
   "dependencies": {
     "eslint": "^10.0.2",
