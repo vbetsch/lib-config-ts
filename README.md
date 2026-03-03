@@ -9,15 +9,15 @@ npm update @vbetsch/config
 
 ### Native inheritance
 
-- [ ] tsconfig.json
-- [ ] tsconfig.build.json
 - [ ] eslint.config.mjs => ready
 - [ ] .prettierrc
+- [ ] tsconfig.json
+- [ ] tsconfig.build.json
 - [ ] jest.config.cjs
 
 ### Static
 
 - [ ] .editorconfig
-- [ ] .gitignore
 - [ ] .npmrc
+- [ ] .gitignore
 - [ ] .prettierignore
