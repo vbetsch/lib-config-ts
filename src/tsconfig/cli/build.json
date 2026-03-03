@@ -1,4 +1,0 @@
-{
-  "extends": "./base.json",
-  "exclude": ["**/*.test.ts", "**/*.spec.ts", "node_modules", "dist"]
-}
