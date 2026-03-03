@@ -7,11 +7,15 @@
     "./eslint/base": "./src/eslint/base.mjs",
     "./eslint/cli": "./src/eslint/cli.mjs",
     "./prettier/base": "./src/prettier/base.mjs",
-    "./prettier/cli": "./src/prettier/cli.mjs"
+    "./prettier/cli": "./src/prettier/cli.mjs",
+    "./tsconfig/base": "./src/tsconfig/base.json",
+    "./tsconfig/cli": "./src/tsconfig/cli/base.json",
+    "./tsconfig/cli/build": "./src/tsconfig/cli/build.json"
   },
   "files": [
     "src/eslint",
-    "src/prettier"
+    "src/prettier",
+    "src/tsconfig"
   ],
   "dependencies": {
     "eslint": "^10.0.2",
