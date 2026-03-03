@@ -5,7 +5,9 @@
   "description": "My TypeScript configuration",
   "exports": {
     "./eslint/base": "./src/eslint/base.mjs",
-    "./eslint/cli": "./src/eslint/cli.mjs"
+    "./eslint/cli": "./src/eslint/cli.mjs",
+    "./prettier/base": "./src/prettier/base.mjs",
+    "./prettier/cli": "./src/prettier/cli.mjs"
   },
   "files": [
     "src/eslint"
