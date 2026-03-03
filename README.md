@@ -20,7 +20,6 @@ npm update @vbetsch/lib-config-ts
 
 - [ ] .editorconfig
 - [ ] .npmrc
-- [ ] .gitignore
 - [ ] .prettierignore
 
 ## Using
