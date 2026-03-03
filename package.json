@@ -10,7 +10,8 @@
     "./prettier/cli": "./src/prettier/cli.mjs"
   },
   "files": [
-    "src/eslint"
+    "src/eslint",
+    "src/prettier"
   ],
   "dependencies": {
     "eslint": "^10.0.2",
