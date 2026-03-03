@@ -11,7 +11,7 @@ npm update @vbetsch/config
 
 - [ ] eslint.config.mjs => ready
 - [ ] .prettierrc => ready
-- [ ] tsconfig.json
+- [ ] tsconfig.json => ready
 - [ ] tsconfig.build.json
 - [ ] jest.config.cjs
 
