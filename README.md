@@ -10,7 +10,7 @@ npm update @vbetsch/config
 ### Native inheritance
 
 - [ ] eslint.config.mjs => ready
-- [ ] .prettierrc
+- [ ] .prettierrc => ready
 - [ ] tsconfig.json
 - [ ] tsconfig.build.json
 - [ ] jest.config.cjs
