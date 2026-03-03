@@ -4,14 +4,11 @@
   "type": "module",
   "description": "My TypeScript configuration",
   "exports": {
-    "./eslint/base": "./eslint/base.mjs",
-    "./eslint/cli": "./eslint/cli.mjs",
-    "./prettier": "./prettier/index.json"
+    "./eslint/base": "./src/eslint/base.mjs",
+    "./eslint/cli": "./src/eslint/cli.mjs"
   },
   "files": [
-    "eslint",
-    "tsconfig",
-    "prettier"
+    "src/eslint"
   ],
   "dependencies": {
     "eslint": "^10.0.2",
