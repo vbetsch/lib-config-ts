@@ -14,6 +14,7 @@ npm update @vbetsch/lib-config-ts
 - [ ] tsconfig.json => ready
 - [ ] tsconfig.build.json
 - [ ] jest.config.cjs
+- [ ] package.json
 
 ### Static
 
