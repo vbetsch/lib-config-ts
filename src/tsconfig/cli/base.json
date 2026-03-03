@@ -1,0 +1,11 @@
+{
+  "extends": "../base.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "noImplicitAny": false
+  }
+}
