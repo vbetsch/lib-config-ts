@@ -21,3 +21,6 @@ npm update @vbetsch/config
 - [ ] .npmrc
 - [ ] .gitignore
 - [ ] .prettierignore
+
+## Using
+[vbetsch/test-config](https://github.com/vbetsch/test-config)
