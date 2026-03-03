@@ -23,4 +23,4 @@ npm update @vbetsch/lib-config-ts
 - [ ] .prettierignore
 
 ## Using
-[vbetsch/test-config](https://github.com/vbetsch/test-config)
+[vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test)
