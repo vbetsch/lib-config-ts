@@ -1,12 +1,21 @@
 {
-  "name": "config",
+  "name": "@vbetsch/config",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "description": "My TypeScript configuration",
+  "exports": {
+    "./eslint/base": "./eslint/base.mjs",
+    "./eslint/astro": "./eslint/astro.mjs",
+    "./prettier": "./prettier/index.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "files": [
+    "eslint",
+    "tsconfig",
+    "prettier"
+  ],
+  "dependencies": {
+    "eslint": "^10.0.2",
+    "globals": "^17.4.0",
+    "typescript-eslint": "^8.56.1"
+  }
 }
