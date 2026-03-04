@@ -1,55 +1,67 @@
 /** Strict rules for maximum type safety and architectural integrity */
 export default {
   rules: {
-    //overrides
-    '@typescript-eslint/no-unused-vars': 'error',
+    /** Group overloaded function signatures together */
+    '@typescript-eslint/adjacent-overload-signatures': 'warn',
+    /** Style for literal class properties (enforces fields over getters) */
+    '@typescript-eslint/class-literal-property-style': ['warn', 'fields'],
+    /** Enforce using 'import type' for type-only imports */
+    '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
+    /** Require all functions to have an explicit return type */
+    '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: false }],
+    /** Force explicit visibility (public/private) on class members */
+    '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'explicit' }],
+    /** Ensure exported functions have explicit types for boundaries */
+    '@typescript-eslint/explicit-module-boundary-types': 'error',
+    /** Ensure interfaces start with an uppercase 'I' */
+    '@typescript-eslint/naming-convention': [
+      'error',
+      { selector: 'interface', format: ['PascalCase'], custom: { regex: '^I[A-Z]', match: true } }
+    ],
+    /** Warn about empty functions to avoid dead code */
+    '@typescript-eslint/no-empty-function': ['warn'],
+    /** Warn about classes used only as namespaces */
+    '@typescript-eslint/no-extraneous-class': 'warn',
+    /** Prevent the use of 'any' type to maintain type safety */
     '@typescript-eslint/no-explicit-any': 'error',
-
-    /** Prevent unsafe 'as any' type casting */
+    /** Allow TypeScript to infer types when they are obvious */
+    '@typescript-eslint/no-inferrable-types': 'off',
+    /** Warn about the use of magic numbers (non-named constants) */
+    '@typescript-eslint/no-magic-numbers': ['warn', { ignoreEnums: true, ignore: [0, 1], enforceConst: true }],
+    /** Prevent using variables or functions before they are defined */
+    '@typescript-eslint/no-use-before-define': ['error'],
+    /** Prevent unnecessary type assertions or conditions */
+    '@typescript-eslint/no-unnecessary-condition': ['error'],
+    /** Warn about unused variables (error level for strictness) */
+    '@typescript-eslint/no-unused-vars': 'error',
+    /** Use concise function type definitions over verbose interfaces */
+    '@typescript-eslint/prefer-function-type': 'warn',
+    /** Encourage marking class properties as readonly when possible */
+    '@typescript-eslint/prefer-readonly': 'warn',
+    /** Ensure type safety when using .reduce() with initial values */
+    '@typescript-eslint/prefer-reduce-type-parameter': 'warn',
+    /** Warn when explicit types are missing (use with caution) */
+    '@typescript-eslint/typedef': 'warn',
+    /** Ensure switch statements handle all possible cases */
+    'default-case': 'warn',
+    /** Ensure all imported modules can be resolved */
+    'import/no-unresolved': 'error',
+    /** Ban inline comments to keep the code layout clean */
+    'no-inline-comments': 'warn',
+    /** Prevent the use of 'undefined' as a value */
+    'no-undefined': 'warn',
+    /** Warn about unused private members in classes */
+    'no-unused-private-class-members': 'error',
+    /** Ban the use of 'var' in favor of 'let' or 'const' */
+    'no-var': 'error',
+    /** Prevent unsafe 'as any' type casting via custom syntax selector */
     'no-restricted-syntax': ['error', {
       selector: 'TSAsExpression > TSAnyKeyword',
       message: 'Do not use `as any`, types must be explicit and safe.',
     }],
-    /** Force explicit visibility (public/private) on class members */
-    '@typescript-eslint/explicit-member-accessibility': ['error', {accessibility: 'explicit'}],
-    /** Ensure interfaces start with an uppercase 'I' */
-    '@typescript-eslint/naming-convention': [
-      'error',
-      {selector: 'interface', format: ['PascalCase'], custom: {regex: '^I[A-Z]', match: true}}
-    ],
-    /** Prevent using variables/functions before they are defined */
-    '@typescript-eslint/no-use-before-define': ['error'],
-    /** Enforce using 'import type' for type-only imports */
-    '@typescript-eslint/consistent-type-imports': ['error', {prefer: 'type-imports'}],
-    /** Ban the use of 'var' in favor of 'let' or 'const' */
-    'no-var': 'error',
-    /** Require all functions to have an explicit return type */
-    '@typescript-eslint/explicit-function-return-type': ['error', {allowExpressions: false}],
-
-    //add
+    /** Enforce 'const' for variables that are never reassigned */
+    'prefer-const': ['error', { destructuring: 'all' }],
+    /** Require 'await' for async functions to avoid logic errors */
     'require-await': 'error',
-    'no-undefined': 'warn',
-    'prefer-const': ['error', {destructuring: 'all'}],
-    'import/no-unresolved': 'error',
-    'no-inline-comments': 'warn',
-    'no-unused-private-class-members': 'error',
-    '@typescript-eslint/prefer-readonly': 'warn',
-    '@typescript-eslint/no-magic-numbers': [
-      'warn',
-      {ignoreEnums: true, ignore: [0, 1], enforceConst: true},
-    ],
-    '@typescript-eslint/no-empty-function': ['warn'],
-    'default-case': 'warn',
-    '@typescript-eslint/no-unnecessary-condition': ['error'],
-    '@typescript-eslint/explicit-module-boundary-types': 'error',
-    '@typescript-eslint/no-inferrable-types': 'off',
-    '@typescript-eslint/no-extraneous-class': 'warn',
-    '@typescript-eslint/typedef': 'warn',
-    '@typescript-eslint/adjacent-overload-signatures': 'warn',
-    '@typescript-eslint/prefer-reduce-type-parameter': 'warn',
-    '@typescript-eslint/prefer-function-type': 'warn',
-    '@typescript-eslint/class-literal-property-style': ['warn', 'fields'],
-
-    // TODO: Create config for spellchecking, naming convention, jsx
   }
 };
