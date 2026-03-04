@@ -1,6 +1,4 @@
 {
   "extends": "./base.json",
-  "compilerOptions": {
-    "noImplicitAny": true
-  }
+  "exclude": ["**/*.test.ts", "**/*.spec.ts", "node_modules", "dist"]
 }
