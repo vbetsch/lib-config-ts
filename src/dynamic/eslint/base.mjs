@@ -1,37 +1,32 @@
-import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
-import eslintPluginPrettier from 'eslint-plugin-prettier';
-import spellcheck from 'eslint-plugin-spellcheck';
-import globals from 'globals';
+import js from '@eslint/js';
 
+/** We use tseslint.config() utility to provide type safety and autocompletion. */
 export default tseslint.config(
   {
-    ignores: ['dist/**', 'node_modules/**'],
+    /** Globally ignore build artifacts and dependency folders for all projects */
+    ignores: ['**/node_modules/**', '**/dist/**'],
   },
+
+  /** Provides the standard JavaScript recommended rules (e.g., preventing reassignment of constants).*/
+  js.configs.recommended,
+  /** Bridge between ESLint and TypeScript. It disables conflicting JS rules and enables core TS safety checks. */
+  ...tseslint.configs.recommended,
+
   {
-    files: ['**/*.{ts,mts,cts,js,mjs,cjs}'],
-    extends: [
-      js.configs.recommended,
-      ...tseslint.configs.recommended,
-      ...tseslint.configs.stylistic,
-    ],
-    plugins: {
-      prettier: eslintPluginPrettier,
-      spellcheck: spellcheck,
-    },
     languageOptions: {
-      parser: tseslint.parser,
-      globals: {
-        ...globals.node,
-        ...globals.es2021,
-      },
+      /** Support latest ECMAScript features (e.g., Optional Chaining) */
+      ecmaVersion: 'latest',
+      /** Explicitly allow the use of 'import' and 'export' statements */
+      sourceType: 'module',
     },
     rules: {
-      'prettier/prettier': 'error',
-      '@typescript-eslint/no-explicit-any': 'error',
-      '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-      'no-console': 'off',
-      'prefer-const': 'error',
+      /** Disable standard JS rule as it does not understand TS types/interfaces */
+      'no-unused-vars': 'off',
+      /** Warn about variables that are declared but never used */
+      '@typescript-eslint/no-unused-vars': 'warn',
+      /** Warn when 'any' type is used, encouraging better type safety without blocking dev */
+      '@typescript-eslint/no-explicit-any': 'warn',
     },
-  }
+  },
 );
