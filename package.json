@@ -16,6 +16,7 @@
         "./eslint/jsx": "./src/dynamic/eslint/jsx.mjs",
         "./eslint/naming": "./src/dynamic/eslint/naming.mjs",
         "./eslint/prettier": "./src/dynamic/eslint/prettier.mjs",
+        "./eslint/spellcheck": "./src/dynamic/eslint/spellcheck.mjs",
         "./eslint/strict": "./src/dynamic/eslint/strict.mjs",
         "./prettier/base": "./src/dynamic/prettier/base.mjs",
         "./prettier/cli": "./src/dynamic/prettier/cli.mjs",
