@@ -12,7 +12,7 @@ npm update @vbetsch/lib-config-ts
 - [ ] eslint.config.mjs => ready
 - [ ] .prettierrc => ready
 - [ ] tsconfig.json => ready
-- [ ] tsconfig.build.json
+- [ ] tsconfig.build.json => ready
 - [ ] jest.config.cjs
 - [ ] package.json
 
