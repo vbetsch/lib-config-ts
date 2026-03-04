@@ -19,11 +19,6 @@ export default {
     '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'explicit' }],
     /** Ensure exported functions have explicit types for boundaries */
     '@typescript-eslint/explicit-module-boundary-types': 'error',
-    /** Ensure interfaces start with an uppercase 'I' */
-    '@typescript-eslint/naming-convention': [
-      'error',
-      { selector: 'interface', format: ['PascalCase'], custom: { regex: '^I[A-Z]', match: true } }
-    ],
     /** Warn about empty functions to avoid dead code */
     '@typescript-eslint/no-empty-function': ['warn'],
     /** Warn about classes used only as namespaces */
