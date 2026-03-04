@@ -1,4 +1,7 @@
+import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
+import eslintPluginPrettier from 'eslint-plugin-prettier';
+import spellcheck from 'eslint-plugin-spellcheck';
 import globals from 'globals';
 
 export default tseslint.config(
@@ -8,10 +11,16 @@ export default tseslint.config(
   {
     files: ['**/*.{ts,mts,cts,js,mjs,cjs}'],
     extends: [
+      js.configs.recommended,
       ...tseslint.configs.recommended,
       ...tseslint.configs.stylistic,
     ],
+    plugins: {
+      prettier: eslintPluginPrettier,
+      spellcheck: spellcheck,
+    },
     languageOptions: {
+      parser: tseslint.parser,
       globals: {
         ...globals.node,
         ...globals.es2021,
