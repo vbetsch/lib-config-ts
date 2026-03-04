@@ -18,7 +18,9 @@
         "./prettier/cli": "./src/prettier/cli.mjs",
         "./tsconfig/base": "./src/tsconfig/base.json",
         "./tsconfig/cli": "./src/tsconfig/cli/base.json",
-        "./tsconfig/cli/build": "./src/tsconfig/cli/build.json"
+        "./tsconfig/cli/build": "./src/tsconfig/cli/build.json",
+        "./jest/base": "./src/jest/base.mjs",
+        "./jest/cli": "./src/jest/cli.mjs"
     },
     "files": [
         "src/eslint",
