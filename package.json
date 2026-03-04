@@ -13,6 +13,8 @@
     "license": "",
     "exports": {
         "./eslint/base": "./src/dynamic/eslint/base.mjs",
+        "./eslint/jsx": "./src/dynamic/eslint/jsx.mjs",
+        "./eslint/naming": "./src/dynamic/eslint/naming.mjs",
         "./eslint/prettier": "./src/dynamic/eslint/prettier.mjs",
         "./eslint/strict": "./src/dynamic/eslint/strict.mjs",
         "./prettier/base": "./src/dynamic/prettier/base.mjs",
