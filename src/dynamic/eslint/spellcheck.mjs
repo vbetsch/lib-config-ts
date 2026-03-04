@@ -23,19 +23,7 @@ export default {
         templates: true,
         /** Custom words to ignore (technical terms, names, libraries) */
         skipWords: [
-          'reyks',
           'vbetsch',
-          'mjs',
-          'tsx',
-          'tsconfig',
-          'node',
-          'eslint',
-          'prettier',
-          'jsx',
-          'nextjs',
-          'lucide',
-          'clsx',
-          'tailwind',
         ],
         /** Minimal character length for a word to be checked */
         minLength: 3,
