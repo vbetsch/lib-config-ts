@@ -41,21 +41,14 @@ export default {
     '@typescript-eslint/no-empty-function': ['warn'],
     'default-case': 'warn',
     '@typescript-eslint/no-unnecessary-condition': ['error'],
-    'semi': ['error', 'always'],
-
-    //explain me
-    // 'require-object-destructuring': 'off',
-    // '@typescript-eslint/explicit-module-boundary-types': 'error',
-    // '@typescript-eslint/no-inferrable-types': 'off',
-    // '@typescript-eslint/prefer-reduce-type-parameter': 'warn',
-    // '@typescript-eslint/prefer-function-type': 'warn',
-    // '@typescript-eslint/no-unsafe-member-access': 'warn',
-    // '@typescript-eslint/no-extraneous-class': 'error',
-    // '@typescript-eslint/class-literal-property-style': ['warn', 'fields'],
-    // '@typescript-eslint/adjacent-overload-signatures': 'warn',
-    // '@typescript-eslint/typedef': 'error',
-    // 'arrow-parens': ['error', 'as-needed'],
-    // 'max-len': ['warn', {code: 300, ignoreUrls: true}],
+    '@typescript-eslint/explicit-module-boundary-types': 'error',
+    '@typescript-eslint/no-inferrable-types': 'off',
+    '@typescript-eslint/no-extraneous-class': 'warn',
+    '@typescript-eslint/typedef': 'warn',
+    '@typescript-eslint/adjacent-overload-signatures': 'warn',
+    '@typescript-eslint/prefer-reduce-type-parameter': 'warn',
+    '@typescript-eslint/prefer-function-type': 'warn',
+    '@typescript-eslint/class-literal-property-style': ['warn', 'fields'],
 
     // TODO: Create config for spellchecking, naming convention, jsx
   }
