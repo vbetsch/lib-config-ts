@@ -1,6 +1,9 @@
 {
   "extends": "../base.json",
   "compilerOptions": {
-    "noImplicitAny": true
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "sourceMap": true,
+    "noImplicitAny": false
   }
 }
