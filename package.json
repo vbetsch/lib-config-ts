@@ -18,20 +18,27 @@
         "./prettier/cli": "./src/prettier/cli.mjs",
         "./tsconfig/base": "./src/tsconfig/base.json",
         "./tsconfig/cli": "./src/tsconfig/cli/base.json",
-        "./tsconfig/cli/build": "./src/tsconfig/cli/build.json"
+        "./tsconfig/cli/build": "./src/tsconfig/cli/build.json",
+        "./jest/base": "./src/jest/base.mjs",
+        "./jest/cli": "./src/jest/cli.mjs"
     },
     "files": [
         "src/eslint",
         "src/prettier",
-        "src/tsconfig"
+        "src/tsconfig",
+        "src/jest"
     ],
     "dependencies": {
         "@eslint/js": "^10.0.1",
+        "@types/jest": "^30.0.0",
         "eslint": "^10.0.2",
         "eslint-plugin-prettier": "^5.5.5",
         "eslint-plugin-spellcheck": "^0.0.20",
         "globals": "^17.4.0",
+        "jest": "^30.2.0",
+        "jest-environment-node": "^30.2.0",
         "prettier": "^3.8.1",
+        "ts-jest": "^29.4.6",
         "typescript-eslint": "^8.56.1"
     }
 }
