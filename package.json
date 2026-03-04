@@ -19,7 +19,6 @@
         "./eslint/spellcheck": "./src/dynamic/eslint/spellcheck.mjs",
         "./eslint/strict": "./src/dynamic/eslint/strict.mjs",
         "./prettier/base": "./src/dynamic/prettier/base.mjs",
-        "./prettier/cli": "./src/dynamic/prettier/cli.mjs",
         "./tsconfig/base": "./src/dynamic/tsconfig/base.json",
         "./tsconfig/cli": "./src/dynamic/tsconfig/cli/base.json",
         "./tsconfig/cli/build": "./src/dynamic/tsconfig/cli/build.json",
