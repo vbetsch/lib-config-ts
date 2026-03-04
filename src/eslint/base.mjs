@@ -27,6 +27,7 @@ export default tseslint.config(
       },
     },
     rules: {
+      'prettier/prettier': 'error',
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
       'no-console': 'off',
