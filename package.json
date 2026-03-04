@@ -13,7 +13,6 @@
     "license": "",
     "exports": {
         "./eslint/base": "./src/dynamic/eslint/base.mjs",
-        "./eslint/cli": "./src/dynamic/eslint/cli.mjs",
         "./prettier/base": "./src/dynamic/prettier/base.mjs",
         "./prettier/cli": "./src/dynamic/prettier/cli.mjs",
         "./tsconfig/base": "./src/dynamic/tsconfig/base.json",
