@@ -12,21 +12,21 @@
     "author": "vbetsch",
     "license": "",
     "exports": {
-        "./eslint/base": "./src/eslint/base.mjs",
-        "./eslint/cli": "./src/eslint/cli.mjs",
-        "./prettier/base": "./src/prettier/base.mjs",
-        "./prettier/cli": "./src/prettier/cli.mjs",
-        "./tsconfig/base": "./src/tsconfig/base.json",
-        "./tsconfig/cli": "./src/tsconfig/cli/base.json",
-        "./tsconfig/cli/build": "./src/tsconfig/cli/build.json",
-        "./jest/base": "./src/jest/base.mjs",
-        "./jest/cli": "./src/jest/cli.mjs"
+        "./eslint/base": "./src/dynamic/eslint/base.mjs",
+        "./eslint/cli": "./src/dynamic/eslint/cli.mjs",
+        "./prettier/base": "./src/dynamic/prettier/base.mjs",
+        "./prettier/cli": "./src/dynamic/prettier/cli.mjs",
+        "./tsconfig/base": "./src/dynamic/tsconfig/base.json",
+        "./tsconfig/cli": "./src/dynamic/tsconfig/cli/base.json",
+        "./tsconfig/cli/build": "./src/dynamic/tsconfig/cli/build.json",
+        "./jest/base": "./src/dynamic/jest/base.mjs",
+        "./jest/cli": "./src/dynamic/jest/cli.mjs"
     },
     "files": [
-        "src/eslint",
-        "src/prettier",
-        "src/tsconfig",
-        "src/jest"
+        "src/dynamic/eslint",
+        "src/dynamic/prettier",
+        "src/dynamic/tsconfig",
+        "src/dynamic/jest"
     ],
     "dependencies": {
         "@eslint/js": "^10.0.1",
