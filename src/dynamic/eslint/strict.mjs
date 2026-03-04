@@ -1,5 +1,11 @@
+import importPlugin from 'eslint-plugin-import';
+
 /** Strict rules for maximum type safety and architectural integrity */
 export default {
+  plugins: {
+    /** Plugin to validate and organize import statements */
+    'import': importPlugin,
+  },
   rules: {
     /** Group overloaded function signatures together */
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
