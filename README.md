@@ -13,8 +13,8 @@ npm update @vbetsch/lib-config-ts
 - [ ] .prettierrc => ready
 - [ ] tsconfig.json => ready
 - [ ] tsconfig.build.json => ready
-- [ ] jest.config.cjs
-- [ ] package.json
+- [ ] jest.config.cjs => ready
+- [ ] package.json => ready
 
 ### Static
 
