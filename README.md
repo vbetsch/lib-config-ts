@@ -22,9 +22,9 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 
 ### Static
 
-- [ ] .editorconfig
-- [ ] .npmrc
-- [ ] .prettierignore
+- [ ] .editorconfig => ready
+- [ ] .npmrc => ready
+- [ ] .prettierignore => ready
 
 ## Using
 [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test)
