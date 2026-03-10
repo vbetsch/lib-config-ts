@@ -1,15 +1,15 @@
 {
+    "exclude": [
+        "**/*.spec.ts",
+        "**/*.test.ts",
+        "**/dist/**",
+        "**/node_modules/**",
+        "**/tests/**",
+        "jest.config.ts"
+    ],
     "compilerOptions": {
         "removeComments": true,
         "sourceMap": true
-    },
-    "exclude": [
-        "**/node_modules/**",
-        "**/dist/**",
-        "**/*.test.ts",
-        "**/*.spec.ts",
-        "**/tests/**",
-        "jest.config.ts"
-    ]
+    }
 }
 
