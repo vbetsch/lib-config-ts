@@ -21,9 +21,9 @@
         "./prettier/base": "./src/dynamic/prettier/base.mjs",
         "./tsconfig/base": "./src/dynamic/tsconfig/base.json",
         "./tsconfig/jsx": "./src/dynamic/tsconfig/jsx.json",
-        "./tsconfig/lib": "./src/dynamic/tsconfig/lib.json",
         "./tsconfig/strict": "./src/dynamic/tsconfig/strict.json",
         "./tsconfig/build/base": "./src/dynamic/tsconfig/build/base.json",
+        "./tsconfig/build/lib": "./src/dynamic/tsconfig/build/lib.json",
         "./jest/base": "./src/dynamic/jest/base.mjs",
         "./jest/cli": "./src/dynamic/jest/cli.mjs"
     },
