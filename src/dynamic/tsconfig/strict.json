@@ -5,13 +5,13 @@
         "experimentalDecorators": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
+        "noImplicitOverride": true,
         "noImplicitReturns": true,
         "noUncheckedIndexedAccess": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "strict": true,
         "strictPropertyInitialization": true,
-        "noImplicitOverride": true,
         "useUnknownInCatchVariables": true,
         "verbatimModuleSyntax": true
     }
