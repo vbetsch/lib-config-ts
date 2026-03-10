@@ -21,12 +21,12 @@ export default tseslint.config(
       sourceType: 'module',
     },
     rules: {
-      /** Disable standard JS rule as it does not understand TS types/interfaces */
-      'no-unused-vars': 'off',
-      /** Warn about variables that are declared but never used */
-      '@typescript-eslint/no-unused-vars': 'warn',
       /** Warn when 'any' type is used, encouraging better type safety without blocking dev */
       '@typescript-eslint/no-explicit-any': 'warn',
+      /** Warn about variables that are declared but never used */
+      '@typescript-eslint/no-unused-vars': 'warn',
+      /** Disable standard JS rule as it does not understand TS types/interfaces */
+      'no-unused-vars': 'off',
     },
   },
 );
