@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "noEmit": false,
+        "removeComments": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        "**/tests/**",
+        "jest.config.ts"
+    ]
+}
+
