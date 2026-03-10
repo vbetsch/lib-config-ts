@@ -13,18 +13,18 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 
 ### Native inheritance
 
-- [ ] eslint.config.mjs => ready
-- [ ] .prettierrc => ready
-- [ ] tsconfig.json => ready
-- [ ] tsconfig.build.json => ready
-- [ ] jest.config.cjs => ready
-- [ ] package.json => ready
+- [x] eslint.config.mjs
+- [x] .prettierrc
+- [x] tsconfig.json
+- [x] tsconfig.build.json
+- [ ] jest.config.cjs
+- [ ] package.json
 
 ### Static
 
-- [ ] .editorconfig => ready
-- [ ] .npmrc => ready
-- [ ] .prettierignore => ready
+- [ ] .editorconfig
+- [ ] .npmrc
+- [ ] .prettierignore
 
 ## Using
 [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test)

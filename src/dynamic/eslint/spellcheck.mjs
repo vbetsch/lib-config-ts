@@ -11,22 +11,22 @@ export default {
     'spellcheck/spell-checker': [
       'warn',
       {
-        /** Dictionary used for verification */
-        lang: 'en_US',
         /** Check spelling in comments */
         comments: true,
-        /** Check spelling in string literals */
-        strings: true,
         /** Check spelling in variable names and identifiers */
         identifiers: true,
-        /** Check spelling in template literals */
-        templates: true,
+        /** Dictionary used for verification */
+        lang: 'en_US',
+        /** Minimal character length for a word to be checked */
+        minLength: 3,
         /** Custom words to ignore (technical terms, names, libraries) */
         skipWords: [
           'vbetsch',
         ],
-        /** Minimal character length for a word to be checked */
-        minLength: 3,
+        /** Check spelling in string literals */
+        strings: true,
+        /** Check spelling in template literals */
+        templates: true,
       },
     ],
   },
