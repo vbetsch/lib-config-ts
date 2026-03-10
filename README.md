@@ -13,8 +13,8 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 
 ### Native inheritance
 
-- [ ] eslint.config.mjs
-- [ ] .prettierrc
+- [x] eslint.config.mjs
+- [x] .prettierrc
 - [ ] tsconfig.json
 - [ ] tsconfig.build.json
 - [ ] jest.config.cjs
