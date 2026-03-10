@@ -20,8 +20,9 @@
         "./eslint/strict": "./src/dynamic/eslint/strict.mjs",
         "./prettier/base": "./src/dynamic/prettier/base.mjs",
         "./tsconfig/base": "./src/dynamic/tsconfig/base.json",
-        "./tsconfig/cli": "./src/dynamic/tsconfig/cli/base.json",
-        "./tsconfig/cli/build": "./src/dynamic/tsconfig/cli/build.json",
+        "./tsconfig/lib": "./src/dynamic/tsconfig/lib.json",
+        "./tsconfig/strict": "./src/dynamic/tsconfig/strict.json",
+        "./tsconfig/build/base": "./src/dynamic/tsconfig/build/base.json",
         "./jest/base": "./src/dynamic/jest/base.mjs",
         "./jest/cli": "./src/dynamic/jest/cli.mjs"
     },
