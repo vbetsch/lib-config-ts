@@ -1,11 +1,14 @@
 {
     "compilerOptions": {
+        "exactOptionalPropertyTypes": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "strict": true,
+        "useUnknownInCatchVariables": true,
         "verbatimModuleSyntax": true
     }
 }
