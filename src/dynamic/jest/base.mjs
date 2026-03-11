@@ -1,6 +1,6 @@
-const {createDefaultPreset} = require('ts-jest');
-const globalCoverageThreshold = 80;
+import {createDefaultPreset} from 'ts-jest';
 
+const globalCoverageThreshold = 80;
 const tsJestTransformCfg = createDefaultPreset().transform;
 
 export default {
