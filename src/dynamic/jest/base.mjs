@@ -7,7 +7,6 @@ export default {
   preset: 'ts-jest',
   testEnvironment: 'node',
   roots: ["<rootDir>/src", "<rootDir>/*tests*"],
-  moduleFileExtensions: ['ts', 'tsx'],
   testMatch: ['**/?(*.)+(spec|test).{ts,tsx}'],
   transform: {
     ...tsJestTransformCfg,
