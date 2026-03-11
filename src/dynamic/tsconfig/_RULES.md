@@ -26,6 +26,7 @@
 * `noUncheckedIndexedAccess`: Forces undefined to be part of the return type when accessing arrays or objects via index.
 * `noUnusedLocals`: Reports errors for local variables that are declared but never used in the function body.
 * `noUnusedParameters`: Reports errors for function parameters that are declared but never used.
+* `outDir`: Redirects the output structure of the compiled files to a specific directory (e.g., dist or build).
 * `removeComments`: Strips all comments from the generated JavaScript files to reduce file size.
 * `resolveJsonModule`: Allows the compiler to import and type-check .json files directly as modules.
 * `skipLibCheck`: Skips type checking of declaration files in _node_modules_ to significantly improve compilation speed.
