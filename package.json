@@ -25,7 +25,8 @@
         "./tsconfig/build/base": "./src/dynamic/tsconfig/build/base.json",
         "./tsconfig/build/lib": "./src/dynamic/tsconfig/build/lib.json",
         "./jest/base": "./src/dynamic/jest/base.mjs",
-        "./jest/cli": "./src/dynamic/jest/cli.mjs"
+        "./jest/dom": "./src/dynamic/jest/dom.mjs",
+        "./jest/strict": "./src/dynamic/jest/strict.mjs"
     },
     "files": [
         "src/dynamic/eslint",
