@@ -1,8 +1,26 @@
+const {createDefaultPreset} = require('ts-jest');
+const globalCoverageThreshold = 80;
+
+const tsJestTransformCfg = createDefaultPreset().transform;
+
 export default {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  verbose: true,
+  roots: ["<rootDir>/src", "<rootDir>/*tests*"],
+  moduleFileExtensions: ['ts', 'tsx'],
+  testMatch: ['**/?(*.)+(spec|test).ts'],
   transform: {
-    '^.+\\.tsx?$': ['ts-jest', { useESM: true }],
+    ...tsJestTransformCfg,
+  },
+  clearMocks: true,
+  resetMocks: true,
+  collectCoverageFrom: ['**/*.ts', '**/*.tsx'],
+  coverageThreshold: {
+    global: {
+      branches: globalCoverageThreshold,
+      functions: globalCoverageThreshold,
+      lines: globalCoverageThreshold,
+      statements: globalCoverageThreshold,
+    },
   },
 };
