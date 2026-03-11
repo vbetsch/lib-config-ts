@@ -8,13 +8,18 @@ export default {
   testEnvironment: 'node',
   roots: ["<rootDir>/src", "<rootDir>/*tests*"],
   moduleFileExtensions: ['ts', 'tsx'],
-  testMatch: ['**/?(*.)+(spec|test).ts'],
+  testMatch: ['**/?(*.)+(spec|test).{ts,tsx}'],
   transform: {
     ...tsJestTransformCfg,
   },
   clearMocks: true,
   resetMocks: true,
-  collectCoverageFrom: ['**/*.ts', '**/*.tsx'],
+  collectCoverageFrom: [
+    '**/*.{ts,tsx}',
+    '!**/node_modules/**',
+    '!**/dist/**',
+    '!**/?(*.)+(spec|test).{ts,tsx}',
+  ],
   coverageThreshold: {
     global: {
       branches: globalCoverageThreshold,
