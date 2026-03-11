@@ -54,6 +54,7 @@
     },
     "devDependencies": {
         "@swc/core": "^1.15.18",
-        "@swc/jest": "^0.2.39"
+        "@swc/jest": "^0.2.39",
+        "jest-environment-jsdom": "^30.3.0"
     }
 }
