@@ -25,7 +25,8 @@
         "./tsconfig/build/base": "./src/dynamic/tsconfig/build/base.json",
         "./tsconfig/build/lib": "./src/dynamic/tsconfig/build/lib.json",
         "./jest/base": "./src/dynamic/jest/base.mjs",
-        "./jest/cli": "./src/dynamic/jest/cli.mjs"
+        "./jest/dom": "./src/dynamic/jest/dom.mjs",
+        "./jest/strict": "./src/dynamic/jest/strict.mjs"
     },
     "files": [
         "src/dynamic/eslint",
@@ -50,5 +51,10 @@
         "prettier": "^3.8.1",
         "ts-jest": "^29.4.6",
         "typescript-eslint": "^8.56.1"
+    },
+    "devDependencies": {
+        "@swc/core": "^1.15.18",
+        "@swc/jest": "^0.2.39",
+        "jest-environment-jsdom": "^30.3.0"
     }
 }
