@@ -1,16 +1,6 @@
 {
-    "name": "@vbetsch/lib-config-ts",
-    "version": "1.0.0",
-    "type": "module",
-    "description": "My TypeScript configuration files",
-    "keywords": [
-        "configuration",
-        "typescript",
-        "eslint",
-        "prettier"
-    ],
     "author": "vbetsch",
-    "license": "",
+    "description": "My TypeScript configuration files",
     "exports": {
         "./eslint/base": "./src/dynamic/eslint/base.mjs",
         "./eslint/jsx": "./src/dynamic/eslint/jsx.mjs",
@@ -31,6 +21,14 @@
     "files": [
         "src/dynamic"
     ],
+    "keywords": [
+        "configuration",
+        "typescript",
+        "eslint",
+        "prettier"
+    ],
+    "license": "",
+    "name": "@vbetsch/lib-config-ts",
     "peerDependencies": {
         "@eslint/js": "^10.0.1",
         "@swc/core": "^1.15.18",
@@ -67,5 +65,7 @@
         "eslint-plugin-spellcheck": {
             "optional": true
         }
-    }
+    },
+    "type": "module",
+    "version": "1.0.0"
 }
