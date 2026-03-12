@@ -17,7 +17,7 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 - [x] .prettierrc
 - [x] tsconfig.json
 - [x] tsconfig.build.json
-- [ ] jest.config.cjs
+- [x] jest.config.cjs
 - [ ] package.json
 
 ### Static
