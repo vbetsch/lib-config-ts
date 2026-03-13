@@ -82,4 +82,4 @@ You have to install **@types/jest** if you want to write Jest tests.
 * **dom**:
     * **jest-environment-jsdom**
 * **strict**:
-    * ...
+    * **@swc/jest**
