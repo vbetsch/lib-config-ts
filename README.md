@@ -1,3 +1,7 @@
+# lib-config-ts
+
+## Installation
+
 ```bash
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_ed25519
@@ -27,6 +31,7 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 - [ ] .prettierignore
 
 ## Using
+
 [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test)
 
 ## Requirements
