@@ -45,15 +45,30 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 
 ### tsconfig
 
+* **base**:
+    * _No more dependencies needed_
 * **strict**:
     * _No more dependencies needed_
 * **jsx**:
     * **@types/react**
+* **build/base**:
+    * _No more dependencies needed_
 * **build/lib**:
     * _No more dependencies needed_
     * You have to delete your out directory if exist
 
 ### eslint
 
+* **base**:
+    * _No more dependencies needed_
 * **strict**:
     * **eslint-plugin-import**
+* **naming**:
+    * _No more dependencies needed_
+* **jsx**:
+    * tsconfig module jsx
+    * **react**
+    * **eslint-plugin-react**
+    * **eslint-plugin-jsx-a11y**
+* **spellcheck**:
+    * **eslint-plugin-spellcheck**
