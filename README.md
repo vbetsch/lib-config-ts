@@ -61,6 +61,8 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 
 ### tsconfig
 
+If you modify your tsconfig build file, you have to think to delete your out directory if exist.
+
 * **base**:
     * _No more dependencies needed_
 * **jsx**:
@@ -71,7 +73,6 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
     * _No more dependencies needed_
 * **build/lib**:
     * _No more dependencies needed_
-    * You have to delete your out directory if exist
 
 ### jest
 
