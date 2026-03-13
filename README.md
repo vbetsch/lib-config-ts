@@ -62,7 +62,7 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 ### tsconfig
 
 You have to define **outDir** in your `tsconfig.build.json`.
-If you modify your tsconfig build file, you have to think to delete your out directory if exist.
+If you modify your tsconfig build file after build your application in local, you have to think to delete your out directory if exist.
 
 ```json
 {
