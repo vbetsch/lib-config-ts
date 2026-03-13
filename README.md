@@ -41,34 +41,49 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 * You just need your runner (tsx for example).
 * You have to install **@types/jest** if you want to write Jest tests.
 
-## Extra modules
-
-### tsconfig
-
-* **base**:
-    * _No more dependencies needed_
-* **strict**:
-    * _No more dependencies needed_
-* **jsx**:
-    * **@types/react**
-* **build/base**:
-    * _No more dependencies needed_
-* **build/lib**:
-    * _No more dependencies needed_
-    * You have to delete your out directory if exist
+## Modules
 
 ### eslint
 
 * **base**:
-    * _No more dependencies needed_
-* **strict**:
-    * **eslint-plugin-import**
-* **naming**:
     * _No more dependencies needed_
 * **jsx**:
     * tsconfig module jsx
     * **react**
     * **eslint-plugin-react**
     * **eslint-plugin-jsx-a11y**
+* **naming**:
+    * _No more dependencies needed_
+* **prettier**:
+    * _No more dependencies needed_
 * **spellcheck**:
     * **eslint-plugin-spellcheck**
+* **strict**:
+    * **eslint-plugin-import**
+
+### prettier
+
+* **base**:
+    * _No more dependencies needed_
+
+### tsconfig
+
+* **base**:
+    * _No more dependencies needed_
+* **jsx**:
+    * **@types/react**
+* **strict**:
+    * _No more dependencies needed_
+* **build/base**:
+    * _No more dependencies needed_
+* **build/lib**:
+    * _No more dependencies needed_
+    * You have to delete your out directory if exist
+
+### jest
+* **base**:
+    * _No more dependencies needed_
+* **dom**:
+    * **jest-environment-jsdom**
+* **strict**:
+    * ...
