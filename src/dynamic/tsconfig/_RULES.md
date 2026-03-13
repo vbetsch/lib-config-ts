@@ -1,6 +1,7 @@
 # TypeScript Configuration Rules Documentation
 
 * `allowSyntheticDefaultImports`: Permits importing default exports from modules that do not explicitly define one, improving consistency.
+* `baseUrl`: Defines the root directory for module resolution, allowing absolute imports without relative paths.
 * `declaration`: Generates a .d.ts declaration file for each TypeScript file, essential for library consumers.
 * `declarationMap`: Creates source maps for declaration files, allowing IDEs to navigate from your library's types back to your source code.
 * `emitDecoratorMetadata`: Generates metadata for decorated declarations, enabling frameworks to reflect on types at runtime.

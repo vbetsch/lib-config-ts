@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "incremental": true,
