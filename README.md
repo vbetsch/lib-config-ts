@@ -36,7 +36,7 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 * You just need your runner (tsx for example).
 * You have to install **@types/jest** if you want to write Jest tests.
 
-## Modules
+## Extra modules
 
 ### tsconfig
 
