@@ -69,7 +69,8 @@ If you modify your tsconfig build file, you have to think to delete your out dir
     ...
     "compilerOptions": {
         "outDir": "./dist/"
-    }
+    },
+    ...
 }
 ```
 
