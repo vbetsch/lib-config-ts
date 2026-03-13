@@ -34,13 +34,6 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 
 [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test)
 
-## Requirements
-
-### dependencies
-
-* You just need your runner (tsx for example).
-* You have to install **@types/jest** if you want to write Jest tests.
-
 ## Modules
 
 ### eslint
@@ -81,6 +74,9 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
     * You have to delete your out directory if exist
 
 ### jest
+
+You have to install **@types/jest** if you want to write Jest tests.
+
 * **base**:
     * _No more dependencies needed_
 * **dom**:
