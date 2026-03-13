@@ -1,3 +1,7 @@
+# lib-config-ts
+
+## Installation
+
 ```bash
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_ed25519
@@ -17,8 +21,8 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 - [x] .prettierrc
 - [x] tsconfig.json
 - [x] tsconfig.build.json
-- [ ] jest.config.cjs
-- [ ] package.json
+- [x] jest.config.cjs
+- [x] package.json
 
 ### Static
 
@@ -27,4 +31,57 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 - [ ] .prettierignore
 
 ## Using
+
 [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test)
+
+## Modules
+
+### eslint
+
+* **base**:
+    * _No more dependencies needed_
+* **jsx**:
+    * tsconfig module jsx
+    * **react**
+    * **eslint-plugin-react**
+    * **eslint-plugin-jsx-a11y**
+* **naming**:
+    * _No more dependencies needed_
+* **prettier**:
+    * _No more dependencies needed_
+* **spellcheck**:
+    * **eslint-plugin-spellcheck**
+* **strict**:
+    * **eslint-plugin-import**
+
+### prettier
+
+* **base**:
+    * _No more dependencies needed_
+
+### tsconfig
+
+If you modify your tsconfig build file, you have to think to delete your out directory if exist.
+
+* **base**:
+    * _No more dependencies needed_
+* **jsx**:
+    * **@types/react**
+* **strict**:
+    * _No more dependencies needed_
+* **build/base**:
+    * _No more dependencies needed_
+* **build/lib**:
+    * _No more dependencies needed_
+
+### jest
+
+You have to install **@types/jest** if you want to write Jest tests.
+
+* **base**:
+    * _No more dependencies needed_
+* **dom**:
+    * **jest-environment-jsdom**
+* **strict**:
+    * **@swc/jest**
+    * @swc/core ?
