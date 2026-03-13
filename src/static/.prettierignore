@@ -1,4 +1,33 @@
-/node_modules/
-/dist/
-jest.config.js
-README.md
+# Imported from @vbetsch/lib-config-ts
+
+# --- Dependencies ---
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# --- Build & Output ---
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# --- Logs & Caches ---
+coverage/
+*.log
+.eslintcache
+.prettiercache
+.swc/
+.jest/
+
+# --- System & IDE ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Environment ---
+.env
+.env.*
+
+# --- Typing ---
+*.d.ts
