@@ -9,7 +9,6 @@
     ],
     "compilerOptions": {
         "noEmit": false,
-        "outDir": "./dist/",
         "removeComments": true,
         "sourceMap": true
     }
