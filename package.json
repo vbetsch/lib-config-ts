@@ -4,8 +4,10 @@
   "keywords": [
       "configuration",
       "typescript",
+      "tsconfig",
       "eslint",
-      "prettier"
+      "prettier",
+      "jest"
   ],
   "license": "",
   "name": "@vbetsch/lib-config-ts",
