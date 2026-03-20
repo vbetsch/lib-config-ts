@@ -1,4 +1,4 @@
-# Installation
+# Installation guide
 
 ```bash
 eval `ssh-agent -s`
