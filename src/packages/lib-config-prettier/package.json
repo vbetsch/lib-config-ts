@@ -2,7 +2,7 @@
     "author": "vbetsch",
     "description": "My Prettier configuration files",
     "exports": {
-        "./base": "./base.mjs"
+        "./base": "./src/base.mjs"
     },
     "files": [
         "src/"
