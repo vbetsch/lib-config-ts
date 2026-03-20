@@ -1,8 +1,9 @@
 # lib-config-ts
 
-## Installation
+# References
 
-[INSTALL.md](docs/INSTALL.md)
+* [Installation guide](docs/INSTALL.md)
+* [Contributing guide](docs/CONTRIBUTING.md)
 
 ## Using
 
