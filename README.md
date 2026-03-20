@@ -26,9 +26,9 @@ cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
 
 ### Static
 
-- [ ] .editorconfig
-- [ ] .npmrc
-- [ ] .prettierignore
+- [x] .editorconfig
+- [x] .npmrc
+- [x] .prettierignore
 
 ## Using
 

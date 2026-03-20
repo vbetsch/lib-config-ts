@@ -1,0 +1,21 @@
+{
+    "author": "vbetsch",
+    "description": "My Prettier configuration files",
+    "exports": {
+        "./base": "./src/base.mjs"
+    },
+    "files": [
+        "src/"
+    ],
+    "keywords": [
+        "configuration",
+        "prettier"
+    ],
+    "license": "",
+    "name": "@vbetsch/lib-config-prettier",
+    "peerDependencies": {
+        "prettier": "^3.8.1"
+    },
+    "type": "module",
+    "version": "1.0.0"
+}
