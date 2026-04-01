@@ -1,5 +1,7 @@
 # lib-config-ts
 
+⚙️ A modular collection of standardized configurations for the TypeScript ecosystem
+
 # References
 
 * [Installation guide](docs/install.md)
