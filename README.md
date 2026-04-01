@@ -1,5 +1,7 @@
 # lib-config-ts
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository is a monorepo powered by [NPM Workspaces](https://docs.npmjs.com/cli/using-npm/workspaces). It allows
 you to install only the specific configuration blocks you need, eliminating unnecessary dependency overhead in your
 projects.
