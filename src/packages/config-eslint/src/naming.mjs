@@ -21,10 +21,10 @@ export default {
         format: ['camelCase'],
         leadingUnderscore: 'require',
       },
-      /** Variables and functions use camelCase, but allow PascalCase for React Components */
+      /** Variables and functions use camelCase */
       {
         selector: ['variable', 'function'],
-        format: ['camelCase', 'PascalCase'],
+        format: ['camelCase'],
         leadingUnderscore: 'allow',
       },
     ],
