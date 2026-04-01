@@ -12,7 +12,7 @@
         "prettier"
     ],
     "license": "",
-    "name": "@vbetsch/lib-config-prettier",
+    "name": "@vbetsch/config-prettier",
     "peerDependencies": {
         "prettier": "^3.8.1"
     },
