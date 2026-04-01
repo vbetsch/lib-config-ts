@@ -25,7 +25,7 @@ export default {
     '@typescript-eslint/no-extraneous-class': 'warn',
     /** Prevent the use of 'any' type to maintain type safety */
     '@typescript-eslint/no-explicit-any': 'error',
-    /** Disallow explicit types when they can be trivially inferred */
+    /** Enforce expliciting types instead of infer them */
     '@typescript-eslint/no-inferrable-types': 'error',
     /** Warn about the use of magic numbers (non-named constants) */
     '@typescript-eslint/no-magic-numbers': ['warn', {ignoreEnums: true, ignore: [0, 1], enforceConst: true}],
