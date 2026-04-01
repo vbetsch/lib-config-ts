@@ -20,6 +20,11 @@ The [templates](src/templates) folder offers you multiple configurations files r
 
 Please refer to installation guides on each modules.
 
+```bash
+# Example
+npm install -D @vbetsch/config-eslint @vbetsch/config-tsconfig
+```
+
 ## Using
 
 You have an example to how to use librairies into the
