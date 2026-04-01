@@ -34,7 +34,7 @@ repository [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts
 
 ## 🤝 Contributing
 
-I welcome anyone who wants to participate in improving the project !
+I welcome anyone who wants to participate in improving the project !<br>
 You just need an approved issue.
 
 [© 2026 vbetsch — MIT License](LICENSE)
