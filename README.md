@@ -2,7 +2,7 @@
 
 # References
 
-* [Installation guide](docs/INSTALL.md)
+* [Installation guide](docs/install.md)
 * [Contributing guide](docs/CONTRIBUTING.md)
 
 ## Using
