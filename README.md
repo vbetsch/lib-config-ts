@@ -14,6 +14,15 @@ Please refer to the [Installation guide](docs/install.md).
 You have an example to how to use librairies into the
 repository [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test).
 
+## Structure
+
+| Package                        | Description               | Path                                                         |
+|--------------------------------|---------------------------|--------------------------------------------------------------|
+| [`@vbetsch/config-eslint`]()   | Core ESLint configuration | [src/packages/config-eslint](src/packages/config-eslint)     |
+| [`@vbetsch/config-jest`]()     | Testing configuration     | [src/packages/config-jest](src/packages/config-jest)         |
+| [`@vbetsch/config-prettier`]() | Formatting standards      | [src/packages/config-prettier](src/packages/config-prettier) |
+| [`@vbetsch/config-tsconfig`]() | Compiler settings         | [src/packages/config-tsconfig](src/packages/config-tsconfig) |
+
 ## Contributing
 
 Please refer to the [Contributing guide](docs/CONTRIBUTING.md).
