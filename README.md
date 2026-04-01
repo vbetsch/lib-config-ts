@@ -36,4 +36,4 @@ I invite everybody to contribute ! You just need an approved issue.
 
 ## Licence
 
-TODO
+[MIT Licence](LICENSE) @2026
