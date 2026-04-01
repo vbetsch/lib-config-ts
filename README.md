@@ -1,7 +1,8 @@
 # lib-config-ts
 
 This repository is a monorepo powered by [NPM Workspaces](https://docs.npmjs.com/cli/using-npm/workspaces). It allows
-you to install only the specific configuration blocks you need, preventing "dependency bloat" in your projects.
+you to install only the specific configuration blocks you need, eliminating unnecessary dependency overhead in your
+projects.
 
 ## 🧩 Structure
 
@@ -16,11 +17,11 @@ you to install only the specific configuration blocks you need, preventing "depe
 
 ### Templates
 
-The [templates](src/templates) folder offers you multiple configurations files ready to copy paste in your projects.
+The [templates](src/templates) folder provides ready-to-use configuration boilerplates for a quick project setup.
 
 ## 🏗️ Installation
 
-Please refer to installation guides on each modules.
+Refer to the individual module READMEs for specific installation instructions.
 
 ```bash
 # Example
@@ -29,12 +30,11 @@ npm install -D @vbetsch/config-eslint @vbetsch/config-tsconfig
 
 ## 🚀 Using
 
-You have an example to how to use librairies into the
-repository [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test).
+Check out the [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test) repository for a live
+integration example.
 
 ## 🤝 Contributing
 
-I welcome anyone who wants to participate in improving the project !<br>
-You just need an approved issue.
+Contributions are welcome! To get started, please ensure you have an approved issue before submitting a PR.
 
 [© 2026 vbetsch — MIT License](LICENSE)
