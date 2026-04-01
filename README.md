@@ -1,98 +1,40 @@
 # lib-config-ts
 
-## Installation
+This repository is a monorepo powered by [NPM Workspaces](https://docs.npmjs.com/cli/using-npm/workspaces). It allows
+you to install only the specific configuration blocks you need, eliminating unnecessary dependency overhead in your
+projects.
+
+## 🧩 Structure
+
+### Packages
+
+| Package                        | Description               | Path                                                         |
+|--------------------------------|---------------------------|--------------------------------------------------------------|
+| [`@vbetsch/config-eslint`]()   | Core ESLint configuration | [src/packages/config-eslint](src/packages/config-eslint)     |
+| [`@vbetsch/config-jest`]()     | Testing configuration     | [src/packages/config-jest](src/packages/config-jest)         |
+| [`@vbetsch/config-prettier`]() | Formatting standards      | [src/packages/config-prettier](src/packages/config-prettier) |
+| [`@vbetsch/config-tsconfig`]() | Compiler settings         | [src/packages/config-tsconfig](src/packages/config-tsconfig) |
+
+### Templates
+
+The [templates](src/templates) folder provides ready-to-use configuration boilerplates for a quick project setup.
+
+## 🏗️ Installation
+
+Refer to the individual module READMEs for specific installation instructions.
 
 ```bash
-eval `ssh-agent -s`
-ssh-add ~/.ssh/id_ed25519
-npm install github:vbetsch/lib-config-ts
+# Example
+npm install -D @vbetsch/config-eslint @vbetsch/config-tsconfig
 ```
 
-```bash
-git clone https://github.com/vbetsch/lib-config-ts
-cp ./lib-config-ts/src/static/* PATH_OF_YOUR_REPOSITORY
-```
+## 🚀 Using
 
-## Files
+Check out the [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test) repository for a live
+integration example.
 
-### Native inheritance
+## 🤝 Contributing
 
-- [x] eslint.config.mjs
-- [x] .prettierrc
-- [x] tsconfig.json
-- [x] tsconfig.build.json
-- [x] jest.config.cjs
-- [x] package.json
+Contributions are welcome! To get started, please ensure you have an approved issue before submitting a PR.
 
-### Static
-
-- [x] .editorconfig
-- [x] .npmrc
-- [x] .prettierignore
-
-## Using
-
-[vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test)
-
-## Modules
-
-### eslint
-
-* **base**:
-    * _No more dependencies needed_
-* **jsx**:
-    * tsconfig module jsx
-    * **react**
-    * **eslint-plugin-react**
-    * **eslint-plugin-jsx-a11y**
-* **naming**:
-    * _No more dependencies needed_
-* **prettier**:
-    * _No more dependencies needed_
-* **spellcheck**:
-    * **eslint-plugin-spellcheck**
-* **strict**:
-    * **eslint-plugin-import**
-
-### prettier
-
-* **base**:
-    * _No more dependencies needed_
-
-### tsconfig
-
-You have to define **outDir** in your `tsconfig.build.json`.
-If you modify your tsconfig build file after build your application in local, you have to think to delete your out directory if exist.
-
-```json
-{
-    ...
-    "compilerOptions": {
-        "outDir": "./dist/"
-    },
-    ...
-}
-```
-
-* **base**:
-    * _No more dependencies needed_
-* **jsx**:
-    * **@types/react**
-* **strict**:
-    * _No more dependencies needed_
-* **build/base**:
-    * _No more dependencies needed_
-* **build/lib**:
-    * _No more dependencies needed_
-
-### jest
-
-You have to install **@types/jest** if you want to write Jest tests.
-
-* **base**:
-    * _No more dependencies needed_
-* **dom**:
-    * **jest-environment-jsdom**
-* **strict**:
-    * **@swc/jest**
-    * @swc/core ?
+[© 2026 vbetsch — MIT License](LICENSE)

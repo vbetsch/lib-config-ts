@@ -14,7 +14,7 @@
         "jest"
     ],
     "license": "",
-    "name": "@vbetsch/lib-config-jest",
+    "name": "@vbetsch/config-jest",
     "peerDependencies": {
         "@swc/core": "^1.15.18",
         "@swc/jest": "^0.2.39",

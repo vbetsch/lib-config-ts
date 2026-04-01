@@ -16,7 +16,7 @@
         "typescript"
     ],
     "license": "",
-    "name": "@vbetsch/lib-config-tsconfig",
+    "name": "@vbetsch/config-tsconfig",
     "type": "module",
     "version": "1.0.0"
 }
