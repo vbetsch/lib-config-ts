@@ -1,7 +1,4 @@
-/**
- * Core Prettier configuration shared across all projects.
- * Enforces consistency in formatting while remaining flexible for React/TS.
- */
+/** Core Prettier configuration shared across all projects. */
 export default {
   /** Omit parens when possible in arrow functions (e.g., x => x) */
   arrowParens: 'avoid',
