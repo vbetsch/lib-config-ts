@@ -5,7 +5,7 @@ you to install only the specific configuration blocks you need, preventing "depe
 
 ## Installation
 
-Please refer to the [Installation guide](docs/install.md).
+Please refer to installation guides on each modules.
 
 ## Using
 
