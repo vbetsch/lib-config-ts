@@ -32,7 +32,7 @@ repository [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts
 
 ## Contributing
 
-Please refer to the [Contributing guide](docs/CONTRIBUTING.md).
+TODO
 
 ## Licence
 
