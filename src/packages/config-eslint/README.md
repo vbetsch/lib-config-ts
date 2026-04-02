@@ -45,6 +45,9 @@ export default tseslint.config(
 
 ```
 
+> Check out the [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test) repository for a live
+> integration example.
+
 ## 🤝 Contributing
 
 Please refer to the [Root README](https://github.com/vbetsch/lib-config-ts/blob/master/README.md) for contribution
