@@ -19,7 +19,8 @@ Copy the desired configuration files to your project's root directory.
 
 ```bash
 # Example: Copying from a local clone
-cp src/templates/.editorconfig /path/to/your/project/
+git clone https://github.com/vbetsch/lib-config-ts
+cp lib-config-ts/src/templates/.editorconfig /path/to/your/project/
 ```
 
 ## Contributing

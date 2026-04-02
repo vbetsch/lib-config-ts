@@ -23,6 +23,9 @@ Install the NPM package in your project:
 npm install -D @vbetsch/config-tsconfig
 ```
 
+> **Note**: Depending on the modules you use (e.g. jsx), you must also install the corresponding peer
+> dependencies like @types/react.
+
 ## 🚀 Getting started
 
 To use these configurations, extend them in your `tsconfig.json` file:
@@ -38,7 +41,10 @@ To use these configurations, extend them in your `tsconfig.json` file:
 
 ### Using Build configurations
 
-For your production builds, you can create a `tsconfig.build.json` and extend the build-specific modules:
+For your production builds, you can create a `tsconfig.build.json` and extend the build-specific modules.
+You have to define **outDir** in your `tsconfig.build.json`.
+If you modify your tsconfig build file after build your application in local, you have to think to delete your out
+directory if exist.
 
 ```json
 {

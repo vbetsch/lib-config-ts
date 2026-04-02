@@ -27,6 +27,22 @@ npm install -D @vbetsch/config-eslint
 > **Note**: Depending on the modules you use (e.g., jsx or prettier), you must also install the corresponding peer
 > dependencies like eslint-plugin-react or prettier.
 
+* **base**:
+    * _No more dependencies needed_
+* **jsx**:
+    * tsconfig module jsx
+    * **react**
+    * **eslint-plugin-react**
+    * **eslint-plugin-jsx-a11y**
+* **naming**:
+    * _No more dependencies needed_
+* **prettier**:
+    * _No more dependencies needed_
+* **spellcheck**:
+    * **eslint-plugin-spellcheck**
+* **strict**:
+    * **eslint-plugin-import**
+
 ## 🚀 Getting started
 
 To use these configurations, import them into your flat `eslint.config.mjs` file:
