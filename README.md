@@ -1,27 +1,42 @@
+# lib-config-ts
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This repository is a monorepo powered by [NPM Workspaces](https://docs.npmjs.com/cli/using-npm/workspaces). It allows
+you to install only the specific configuration blocks you need, eliminating unnecessary dependency overhead in your
+projects.
+
+## 🧩 Structure
+
+### Packages
+
+| Package                        | Description               | Path                                                         |
+|--------------------------------|---------------------------|--------------------------------------------------------------|
+| [`@vbetsch/config-eslint`]()   | Core ESLint configuration | [src/packages/config-eslint](src/packages/config-eslint)     |
+| [`@vbetsch/config-jest`]()     | Testing configuration     | [src/packages/config-jest](src/packages/config-jest)         |
+| [`@vbetsch/config-prettier`]() | Formatting standards      | [src/packages/config-prettier](src/packages/config-prettier) |
+| [`@vbetsch/config-tsconfig`]() | Compiler settings         | [src/packages/config-tsconfig](src/packages/config-tsconfig) |
+
+### Templates
+
+The [templates](src/templates) folder provides ready-to-use configuration boilerplates for a quick project setup.
+
+## 🏗️ Installation
+
+Refer to the individual module READMEs for specific installation instructions.
+
 ```bash
-eval `ssh-agent -s`
-ssh-add ~/.ssh/id_ed25519
-npm install github:vbetsch/lib-config-ts
-npm update @vbetsch/lib-config-ts
+# Example
+npm install -D @vbetsch/config-eslint @vbetsch/config-tsconfig
 ```
 
-## Files
+## 🚀 Using
 
-### Native inheritance
+Check out the [vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test) repository for a live
+integration example.
 
-- [ ] eslint.config.mjs => ready
-- [ ] .prettierrc => ready
-- [ ] tsconfig.json => ready
-- [ ] tsconfig.build.json
-- [ ] jest.config.cjs
-- [ ] package.json
+## 🤝 Contributing
 
-### Static
+Contributions are welcome! To get started, please ensure you have an approved issue before submitting a PR.
 
-- [ ] .editorconfig
-- [ ] .npmrc
-- [ ] .gitignore
-- [ ] .prettierignore
-
-## Using
-[vbetsch/lib-config-ts-test](https://github.com/vbetsch/lib-config-ts-test)
+[© 2026 vbetsch — MIT License](LICENSE)

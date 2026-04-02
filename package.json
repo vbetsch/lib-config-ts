@@ -1,26 +1,19 @@
 {
-  "name": "@vbetsch/lib-config-ts",
-  "version": "0.3.0",
-  "type": "module",
-  "description": "My TypeScript configuration",
-  "exports": {
-    "./eslint/base": "./src/eslint/base.mjs",
-    "./eslint/cli": "./src/eslint/cli.mjs",
-    "./prettier/base": "./src/prettier/base.mjs",
-    "./prettier/cli": "./src/prettier/cli.mjs",
-    "./tsconfig/base": "./src/tsconfig/base.json",
-    "./tsconfig/cli": "./src/tsconfig/cli/base.json",
-    "./tsconfig/cli/build": "./src/tsconfig/cli/build.json"
-  },
-  "files": [
-    "src/eslint",
-    "src/prettier",
-    "src/tsconfig"
+  "author": "vbetsch",
+  "description": "My TypeScript configuration files",
+  "keywords": [
+      "configuration",
+      "typescript",
+      "tsconfig",
+      "eslint",
+      "prettier",
+      "jest"
   ],
-  "dependencies": {
-    "eslint": "^10.0.2",
-    "globals": "^17.4.0",
-    "prettier": "^3.8.1",
-    "typescript-eslint": "^8.56.1"
-  }
+  "license": "",
+  "name": "@vbetsch/lib-config-ts",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "src/packages/*"
+  ]
 }

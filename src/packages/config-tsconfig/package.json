@@ -1,0 +1,22 @@
+{
+    "author": "vbetsch",
+    "description": "My tsconfig configuration files",
+    "exports": {
+        "./base": "./src/base.json",
+        "./jsx": "./src/jsx.json",
+        "./strict": "./src/strict.json",
+        "./build/base": "./src/build/base.json",
+        "./build/lib": "./src/build/lib.json"
+    },
+    "files": [
+        "src/"
+    ],
+    "keywords": [
+        "configuration",
+        "typescript"
+    ],
+    "license": "",
+    "name": "@vbetsch/config-tsconfig",
+    "type": "module",
+    "version": "1.0.0"
+}

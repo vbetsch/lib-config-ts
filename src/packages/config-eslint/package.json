@@ -1,0 +1,49 @@
+{
+    "author": "vbetsch",
+    "description": "My ESLint configuration files",
+    "exports": {
+        "./base": "./src/base.mjs",
+        "./jsx": "./src/jsx.mjs",
+        "./naming": "./src/naming.mjs",
+        "./prettier": "./src/prettier.mjs",
+        "./spellcheck": "./src/spellcheck.mjs",
+        "./strict": "./src/strict.mjs"
+    },
+    "files": [
+        "src/"
+    ],
+    "keywords": [
+        "configuration",
+        "typescript",
+        "eslint"
+    ],
+    "license": "",
+    "name": "@vbetsch/config-eslint",
+    "peerDependencies": {
+        "@eslint/js": "^9.0.0",
+        "eslint": "^9.0.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-jsx-a11y": "^6.10.2",
+        "eslint-plugin-prettier": "^5.5.5",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-spellcheck": "^0.0.20",
+        "typescript-eslint": "^8.56.1"
+    },
+    "peerDependenciesMeta": {
+        "eslint-plugin-import": {
+            "optional": true
+        },
+        "eslint-plugin-jsx-a11y": {
+            "optional": true
+        },
+        "eslint-plugin-react": {
+            "optional": true
+        },
+        "eslint-plugin-spellcheck": {
+            "optional": true
+        }
+    },
+    "type": "module",
+    "version": "1.0.0"
+}
