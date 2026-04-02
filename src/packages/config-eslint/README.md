@@ -29,15 +29,17 @@ npm install -D @vbetsch/config-eslint
 
 ## 🚀 Getting started
 
-To use these configurations, import them into your flat `eslint.config.js` file:
+To use these configurations, import them into your flat `eslint.config.mjs` file:
 
 ```js
 import tseslint from 'typescript-eslint';
 import base from '@vbetsch/config-eslint';
 import prettier from '@vbetsch/config-eslint';
+import strict from '@vbetsch/config-eslint';
 
 export default tseslint.config(
   ...base,
+  ...strict,
   ...prettier,
 );
 
