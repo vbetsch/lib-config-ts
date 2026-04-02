@@ -15,6 +15,15 @@ export default {
     ...jsxA11y.configs.recommended.rules,
     /** Standard React best practices */
     ...reactPlugin.configs.recommended.rules,
+    /** Functions use camelCase, but allow PascalCase for React Components */
+    '@typescript-eslint/naming-convention': [
+      'warn',
+      {
+        selector: ['function'],
+        format: ['camelCase', 'PascalCase'],
+        leadingUnderscore: 'allow',
+      },
+    ],
     /** Enforce PascalCase for component names */
     'react/jsx-pascal-case': 'error',
     /** Prevent the use of 'any' in prop types for better safety */
