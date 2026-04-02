@@ -18,10 +18,10 @@ This package provides several configuration modules that can be composed to fit 
 
 ## 🏗️ Installation
 
-Install the package and its required peer dependencies in your project:
+Install the NPM package in your project:
 
 ```bash
-npm install -D @vbetsch/config-eslint eslint typescript-eslint
+npm install -D @vbetsch/config-eslint
 ```
 
 > **Note**: Depending on the modules you use (e.g., jsx or prettier), you must also install the corresponding peer
@@ -32,21 +32,15 @@ npm install -D @vbetsch/config-eslint eslint typescript-eslint
 To use these configurations, import them into your flat `eslint.config.js` file:
 
 ```js
-import baseConfig from "@vbetsch/config-eslint/base";
-import jsxConfig from "@vbetsch/config-eslint/jsx";
-import prettierConfig from "@vbetsch/config-eslint/prettier";
+import tseslint from 'typescript-eslint';
+import base from '@vbetsch/config-eslint';
+import prettier from '@vbetsch/config-eslint';
 
-export default [
-  ...baseConfig,
-  ...jsxConfig,
-  ...prettierConfig,
-  {
-    files: ["**/*.ts", "**/*.tsx"],
-    rules: {
-      // Your custom overrides here
-    }
-  }
-];
+export default tseslint.config(
+  ...base,
+  ...prettier,
+);
+
 ```
 
 ## 🤝 Contributing
