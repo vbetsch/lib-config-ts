@@ -10,13 +10,20 @@ across your projects.
 | [`.npmrc`](.npmrc)                   | Ensures strict engine checks and lockfile consistency.            |
 | [`.prettierignore`](.prettierignore) | Prevents Prettier from processing build artifacts.                |
 
-## How to use
+## Getting started
 
-You just need to clone this repository and copy-paste all these templates files (expect README) in
-your project root. Read and adapt them.
+Copy the desired configuration files to your project's root directory.
+
+> **Note:** These are "hidden" files (starting with a dot). Ensure your file explorer or terminal
+> shows hidden files before copying.
+
+```bash
+# Example: Copying from a local clone
+cp src/templates/.editorconfig /path/to/your/project/
+```
 
 ## Contributing
 
-Refer to the main [README](../../README.md)
+Please refer to the [Root README](../../README.md) for contribution guidelines.
 
 [© 2026 vbetsch — MIT License](../../LICENSE)
