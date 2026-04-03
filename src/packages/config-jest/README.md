@@ -33,6 +33,14 @@ You have to install **@types/jest** if you want to write Jest tests in TypeScrip
 * **strict**:
     * **@swc/jest**
 
+* **base**:
+    * _No more dependencies needed_
+* **dom**:
+    * **jest-environment-jsdom**
+* **strict**:
+    * **@swc/jest**
+    * @swc/core ?
+
 ## 🚀 Getting started
 
 To use these configurations, import them into your flat `jest.config.mjs` file:
