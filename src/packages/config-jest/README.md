@@ -39,12 +39,13 @@ You have to install **@types/jest** if you want to write Jest tests in TypeScrip
 To use these configurations, import them into your flat `jest.config.mjs` file:
 
 ```js
-import base from '@vbetsch/config-jest/base';
-import strict from '@vbetsch/config-jest/strict';
+// NOTE: You can name imports like you want
+import baseVbetsch from '@vbetsch/config-jest/base';
+import strictVbetsch from '@vbetsch/config-jest/strict';
 
 export default {
-  ...base,
-  ...strict,
+  ...baseVbetsch,
+  ...strictVbetsch,
 };
 ```
 
