@@ -16,6 +16,9 @@
     "peerDependencies": {
         "prettier": "^3.8.1"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "type": "module",
     "version": "0.1.0"
 }

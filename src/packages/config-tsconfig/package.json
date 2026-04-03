@@ -17,6 +17,9 @@
     ],
     "license": "",
     "name": "@vbetsch/config-tsconfig",
+    "publishConfig": {
+        "access": "public"
+    },
     "type": "module",
     "version": "0.1.0"
 }
