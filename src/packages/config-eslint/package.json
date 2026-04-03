@@ -2,6 +2,7 @@
     "author": "vbetsch",
     "description": "My ESLint configuration files",
     "exports": {
+        ".": "./src/index.mjs",
         "./base": "./src/modules/base.mjs",
         "./jsx": "./src/modules/jsx.mjs",
         "./naming": "./src/modules/naming.mjs",
