@@ -57,6 +57,16 @@ export default tseslint.config(
   ...base,
   ...strict,
   ...prettier,
+        
+  // You have to add these lines only for the strict module
+  {
+    languageOptions: {
+      parserOptions: {
+        project: './tsconfig.json',
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
+  },
 );
 
 ```
