@@ -26,6 +26,13 @@ npm install -D @vbetsch/config-tsconfig
 > **Note**: Depending on the modules you use (e.g. jsx), you must also install the corresponding peer
 > dependencies like @types/react.
 
+* **base**:
+    * _No more dependencies needed_
+* **jsx**:
+    * **@types/react**
+* **strict**:
+    * _No more dependencies needed_
+
 ## 🚀 Getting started
 
 To use these configurations, extend them in your `tsconfig.json` file:
