@@ -2,6 +2,7 @@
     "author": "vbetsch",
     "description": "My tsconfig configuration files",
     "exports": {
+        ".": "./src/base.json",
         "./base": "./src/base.json",
         "./jsx": "./src/jsx.json",
         "./strict": "./src/strict.json",
