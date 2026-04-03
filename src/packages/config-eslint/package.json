@@ -2,7 +2,7 @@
     "author": "vbetsch",
     "description": "My ESLint configuration files",
     "exports": {
-        ".": "./src/index.mjs",
+        ".": "./src/modules/base.mjs",
         "./base": "./src/modules/base.mjs",
         "./jsx": "./src/modules/jsx.mjs",
         "./naming": "./src/modules/naming.mjs",
@@ -49,5 +49,5 @@
         "access": "public"
     },
     "type": "module",
-    "version": "0.2.3"
+    "version": "0.2.4"
 }
