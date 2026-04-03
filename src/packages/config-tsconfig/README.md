@@ -26,6 +26,17 @@ npm install -D @vbetsch/config-tsconfig
 > **Note**: Depending on the modules you use (e.g. jsx), you must also install the corresponding peer
 > dependencies like @types/react.
 
+* **base**:
+    * _No more dependencies needed_
+* **jsx**:
+    * **@types/react**
+* **strict**:
+    * _No more dependencies needed_
+* **build/base**:
+    * _No more dependencies needed_
+* **build/lib**:
+    * _No more dependencies needed_
+
 ## 🚀 Getting started
 
 To use these configurations, extend them in your `tsconfig.json` file:
@@ -33,8 +44,8 @@ To use these configurations, extend them in your `tsconfig.json` file:
 ```json
 {
     "extends": [
-        "@vbetsch/lib-config-ts/tsconfig/base",
-        "@vbetsch/lib-config-ts/tsconfig/strict"
+        "@vbetsch/config-tsconfig/base",
+        "@vbetsch/config-tsconfig/strict"
     ]
 }
 ```
@@ -50,8 +61,8 @@ directory if exist.
 {
     "extends": [
         "./tsconfig.json",
-        "@vbetsch/lib-config-ts/tsconfig/build/base",
-        "@vbetsch/lib-config-ts/tsconfig/build/lib"
+        "@vbetsch/config-tsconfig/build/base",
+        "@vbetsch/config-tsconfig/build/lib"
     ],
     "compilerOptions": {
         // IMPORTANT: You have to define it !

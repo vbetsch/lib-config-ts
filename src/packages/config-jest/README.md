@@ -24,7 +24,14 @@ npm install -D @vbetsch/config-jest
 You have to install **@types/jest** if you want to write Jest tests in TypeScript.
 
 > **Note**: Depending on the modules you use (e.g., dom or strict), you must also install the corresponding peer
-> dependencies like jest-environment-jsdom, @swc/core, or @swc/jest.
+> dependencies like jest-environment-jsdom or @swc/jest.
+
+* **base**:
+    * _No more dependencies needed_
+* **dom**:
+    * **jest-environment-jsdom**
+* **strict**:
+    * **@swc/jest**
 
 * **base**:
     * _No more dependencies needed_
@@ -39,12 +46,13 @@ You have to install **@types/jest** if you want to write Jest tests in TypeScrip
 To use these configurations, import them into your flat `jest.config.mjs` file:
 
 ```js
-import base from '@vbetsch/config-jest';
-import strict from '@vbetsch/config-jest';
+// NOTE: You can name imports like you want
+import baseVbetsch from '@vbetsch/config-jest/base';
+import strictVbetsch from '@vbetsch/config-jest/strict';
 
 export default {
-  ...base,
-  ...strict,
+  ...baseVbetsch,
+  ...strictVbetsch,
 };
 ```
 

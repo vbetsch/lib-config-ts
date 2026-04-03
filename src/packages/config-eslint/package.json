@@ -2,6 +2,7 @@
     "author": "vbetsch",
     "description": "My ESLint configuration files",
     "exports": {
+        ".": "./src/base.mjs",
         "./base": "./src/base.mjs",
         "./jsx": "./src/jsx.mjs",
         "./naming": "./src/naming.mjs",
@@ -31,10 +32,16 @@
         "typescript-eslint": "^8.56.1"
     },
     "peerDependenciesMeta": {
+        "eslint-config-prettier": {
+            "optional": true
+        },
         "eslint-plugin-import": {
             "optional": true
         },
         "eslint-plugin-jsx-a11y": {
+            "optional": true
+        },
+        "eslint-plugin-prettier": {
             "optional": true
         },
         "eslint-plugin-react": {
@@ -44,6 +51,9 @@
             "optional": true
         }
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "type": "module",
-    "version": "1.0.0"
+    "version": "0.2.13"
 }

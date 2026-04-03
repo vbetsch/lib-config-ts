@@ -24,10 +24,11 @@ npm install -D @vbetsch/config-prettier
 To use these configurations, import them into your flat `.prettierrc.mjs` file:
 
 ```js
-import base from '@vbetsch/config-prettier';
+// NOTE: You can name imports like you want
+import baseVbetsch from '@vbetsch/config-prettier';
 
 export default {
-  ...base,
+  ...baseVbetsch,
 };
 ```
 
