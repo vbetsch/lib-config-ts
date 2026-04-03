@@ -2,13 +2,13 @@
     "author": "vbetsch",
     "description": "My ESLint configuration files",
     "exports": {
-        ".": "./src/modules/base.mjs",
-        "./base": "./src/modules/base.mjs",
-        "./jsx": "./src/modules/jsx.mjs",
-        "./naming": "./src/modules/naming.mjs",
-        "./prettier": "./src/modules/prettier.mjs",
-        "./spellcheck": "./src/modules/spellcheck.mjs",
-        "./strict": "./src/modules/strict.mjs"
+        ".": "./src/base.mjs",
+        "./base": "./src/base.mjs",
+        "./jsx": "./src/jsx.mjs",
+        "./naming": "./src/naming.mjs",
+        "./prettier": "./src/prettier.mjs",
+        "./spellcheck": "./src/spellcheck.mjs",
+        "./strict": "./src/strict.mjs"
     },
     "files": [
         "src/"
@@ -49,5 +49,5 @@
         "access": "public"
     },
     "type": "module",
-    "version": "0.3.1"
+    "version": "0.2.8"
 }

@@ -9,12 +9,12 @@ This package provides several configuration modules that can be composed to fit 
 
 | Module                             | Description                                          |
 |------------------------------------|------------------------------------------------------|
-| [`base`](src/modules/base.mjs)             | Core TypeScript rules and best practices.            |
-| [`jsx`](src/modules/jsx.mjs)               | Specialized rules for React and JSX accessibility.   |
-| [`naming`](src/modules/naming.mjs)         | Enforces strict and consistent naming conventions.   |
-| [`prettier`](src/modules/prettier.mjs)     | Disables conflicting rules and integrates Prettier.  |
-| [`spellcheck`](src/modules/spellcheck.mjs) | Checks for common typos in identifiers and comments. |
-| [`strict`](src/modules/strict.mjs)         | Opinionated rules for maximum type safety and rigor. |
+| [`base`](src/base.mjs)             | Core TypeScript rules and best practices.            |
+| [`jsx`](src/jsx.mjs)               | Specialized rules for React and JSX accessibility.   |
+| [`naming`](src/naming.mjs)         | Enforces strict and consistent naming conventions.   |
+| [`prettier`](src/prettier.mjs)     | Disables conflicting rules and integrates Prettier.  |
+| [`spellcheck`](src/spellcheck.mjs) | Checks for common typos in identifiers and comments. |
+| [`strict`](src/strict.mjs)         | Opinionated rules for maximum type safety and rigor. |
 
 ## 🏗️ Installation
 
