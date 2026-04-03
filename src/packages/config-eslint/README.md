@@ -38,6 +38,7 @@ npm install -D @vbetsch/config-eslint
     * _No more dependencies needed_
 * **prettier**:
     * **eslint-config-prettier**
+    * **eslint-plugin-prettier**
 * **spellcheck**:
     * **eslint-plugin-spellcheck**
 * **strict**:
