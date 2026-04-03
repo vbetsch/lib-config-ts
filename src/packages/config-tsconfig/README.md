@@ -32,6 +32,10 @@ npm install -D @vbetsch/config-tsconfig
     * **@types/react**
 * **strict**:
     * _No more dependencies needed_
+* **build/base**:
+    * _No more dependencies needed_
+* **build/lib**:
+    * _No more dependencies needed_
 
 ## 🚀 Getting started
 
