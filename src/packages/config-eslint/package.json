@@ -32,6 +32,9 @@
         "typescript-eslint": "^8.56.1"
     },
     "peerDependenciesMeta": {
+        "eslint-config-prettier": {
+            "optional": true
+        },
         "eslint-plugin-import": {
             "optional": true
         },
@@ -49,5 +52,5 @@
         "access": "public"
     },
     "type": "module",
-    "version": "0.2.10"
+    "version": "0.2.11"
 }
