@@ -3,7 +3,6 @@
     "description": "My ESLint configuration files",
     "exports": {
         ".": "./src/modules/base.mjs",
-        "./base": "./src/modules/base.mjs",
         "./jsx": "./src/modules/jsx.mjs",
         "./naming": "./src/modules/naming.mjs",
         "./prettier": "./src/modules/prettier.mjs",
@@ -49,5 +48,5 @@
         "access": "public"
     },
     "type": "module",
-    "version": "0.2.4"
+    "version": "0.2.6"
 }
