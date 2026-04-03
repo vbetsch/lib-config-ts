@@ -49,9 +49,9 @@ To use these configurations, import them into your flat `eslint.config.mjs` file
 
 ```js
 import tseslint from 'typescript-eslint';
-import base from '@vbetsch/config-eslint';
-import prettier from '@vbetsch/config-eslint';
-import strict from '@vbetsch/config-eslint';
+import base from '@vbetsch/config-eslint/base';
+import prettier from '@vbetsch/config-eslint/prettier';
+import strict from '@vbetsch/config-eslint/strict';
 
 export default tseslint.config(
   ...base,
