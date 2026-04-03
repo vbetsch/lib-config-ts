@@ -10,12 +10,12 @@ projects.
 
 ### Packages
 
-| Package                        | Description               | Path                                                         |
-|--------------------------------|---------------------------|--------------------------------------------------------------|
-| [`@vbetsch/config-eslint`]()   | Core ESLint configuration | [src/packages/config-eslint](src/packages/config-eslint)     |
-| [`@vbetsch/config-jest`]()     | Testing configuration     | [src/packages/config-jest](src/packages/config-jest)         |
-| [`@vbetsch/config-prettier`]() | Formatting standards      | [src/packages/config-prettier](src/packages/config-prettier) |
-| [`@vbetsch/config-tsconfig`]() | Compiler settings         | [src/packages/config-tsconfig](src/packages/config-tsconfig) |
+| Package                                                                              | Description               | Path                                                         |
+|--------------------------------------------------------------------------------------|---------------------------|--------------------------------------------------------------|
+| [`@vbetsch/config-eslint`](https://www.npmjs.com/package/@vbetsch/config-eslint)     | Core ESLint configuration | [src/packages/config-eslint](src/packages/config-eslint)     |
+| [`@vbetsch/config-jest`](https://www.npmjs.com/package/@vbetsch/config-jest)         | Testing configuration     | [src/packages/config-jest](src/packages/config-jest)         |
+| [`@vbetsch/config-prettier`](https://www.npmjs.com/package/@vbetsch/config-prettier) | Formatting standards      | [src/packages/config-prettier](src/packages/config-prettier) |
+| [`@vbetsch/config-tsconfig`](https://www.npmjs.com/package/@vbetsch/config-tsconfig) | Compiler settings         | [src/packages/config-tsconfig](src/packages/config-tsconfig) |
 
 ### Templates
 
