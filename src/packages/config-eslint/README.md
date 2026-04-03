@@ -58,7 +58,7 @@ export default tseslint.config(
   ...strict,
   ...prettier,
         
-  // You have to add these lines only for the strict module
+  // IMPORTANT: You have to add these lines only for the strict module !
   {
     languageOptions: {
       parserOptions: {

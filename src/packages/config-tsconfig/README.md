@@ -33,8 +33,8 @@ To use these configurations, extend them in your `tsconfig.json` file:
 ```json
 {
     "extends": [
-        "@vbetsch/lib-config-ts/tsconfig/base",
-        "@vbetsch/lib-config-ts/tsconfig/strict"
+        "@vbetsch/config-tsconfig/base",
+        "@vbetsch/config-tsconfig/strict"
     ]
 }
 ```
@@ -50,8 +50,8 @@ directory if exist.
 {
     "extends": [
         "./tsconfig.json",
-        "@vbetsch/lib-config-ts/tsconfig/build/base",
-        "@vbetsch/lib-config-ts/tsconfig/build/lib"
+        "@vbetsch/config-tsconfig/build/base",
+        "@vbetsch/config-tsconfig/build/lib"
     ],
     "compilerOptions": {
         // IMPORTANT: You have to define it !
