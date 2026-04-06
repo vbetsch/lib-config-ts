@@ -16,7 +16,7 @@
         "configuration",
         "typescript"
     ],
-    "license": "",
+    "license": "MIT",
     "name": "@vbetsch/config-tsconfig",
     "publishConfig": {
         "access": "public"

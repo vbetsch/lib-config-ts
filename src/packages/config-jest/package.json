@@ -14,7 +14,7 @@
         "configuration",
         "jest"
     ],
-    "license": "",
+    "license": "MIT",
     "name": "@vbetsch/config-jest",
     "peerDependencies": {
         "@swc/jest": "^0.2.39",
