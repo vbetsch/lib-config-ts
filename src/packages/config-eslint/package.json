@@ -54,6 +54,10 @@
     "publishConfig": {
         "access": "public"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vbetsch/lib-config-ts/git"
+    },
     "type": "module",
     "version": "0.2.13"
 }
