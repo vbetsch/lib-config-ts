@@ -1,5 +1,9 @@
 # @vbetsch/config-tsconfig
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
+[![npm downloads number per week](https://img.shields.io/npm/dw/@vbetsch/config-tsconfig)](https://www.npmjs.com/package/@vbetsch/config-tsconfig)
+
 A collection of modular and extensible TSConfig files for TypeScript projects, providing a solid foundation for
 development and production builds.
 

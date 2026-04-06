@@ -1,5 +1,9 @@
 # @vbetsch/config-jest
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
+[![npm downloads number per week](https://img.shields.io/npm/dw/@vbetsch/config-jest)](https://www.npmjs.com/package/@vbetsch/config-jest)
+
 A modular Jest configuration collection for TypeScript projects, optimized for speed and reliability using modern
 transformers like SWC.
 
