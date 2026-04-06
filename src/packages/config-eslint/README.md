@@ -1,5 +1,7 @@
 # @vbetsch/config-eslint
 
+[![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
+
 A modular and extensible ESLint configuration collection for TypeScript projects, designed to enforce high code quality
 standards while remaining flexible.
 
