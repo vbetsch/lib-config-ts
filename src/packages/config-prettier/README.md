@@ -2,8 +2,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
-[![github: forks](https://img.shields.io/github/forks/vbetsch/lib-config-ts)](https://github.com/vbetsch/lib-config-ts)
-[![github: stars](https://img.shields.io/github/stars/vbetsch/lib-config-ts)](https://github.com/vbetsch/lib-config-ts)
+
+[//]: # ([![github: forks]&#40;https://img.shields.io/github/forks/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
+[//]: # ([![github: stars]&#40;https://img.shields.io/github/stars/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
 
 A standardized Prettier configuration for TypeScript projects, ensuring consistent code style and readability across
 your entire codebase.
