@@ -3,7 +3,8 @@ name: CD - Publish to NPM
 on:
   push:
     branches:
-      - main
+      - 46-create-continuous-deployment-cd
+#      - main
 
 jobs:
   publish:
