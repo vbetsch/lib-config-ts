@@ -23,7 +23,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/vbetsch/lib-config-ts/git"
+        "url": "https://github.com/vbetsch/lib-config-ts.git"
     },
     "type": "module",
     "version": "0.3.0"
