@@ -1,4 +1,4 @@
-name: CD - Publish to NPM
+name: Deployment
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 #      - main
 
 jobs:
-  publish:
+  npm:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
