@@ -3,8 +3,7 @@ name: Deployment
 on:
   push:
     branches:
-      - 46-create-continuous-deployment-cd
-#      - main
+      - main
 
 jobs:
   npm:
