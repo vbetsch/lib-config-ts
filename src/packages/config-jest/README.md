@@ -1,5 +1,12 @@
 # @vbetsch/config-jest
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
+
+[//]: # ([![github: forks]&#40;https://img.shields.io/github/forks/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
+[//]: # ([![github: stars]&#40;https://img.shields.io/github/stars/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
 A modular Jest configuration collection for TypeScript projects, optimized for speed and reliability using modern
 transformers like SWC.
 
@@ -7,11 +14,11 @@ transformers like SWC.
 
 This package provides several configuration modules that can be composed to fit your project's needs:
 
-| Module                     | Description                                                            |
-|----------------------------|------------------------------------------------------------------------|
-| [`base`](src/base.mjs)     | Core Jest configuration for Node.js and TypeScript.                    |
-| [`dom`](src/dom.mjs)       | Specialized configuration for browser-like environments (JSDOM).       |
-| [`strict`](src/strict.mjs) | Opinionated high-performance setup using SWC and strict type checking. |
+| Module                                                                                               | Description                                                            |
+|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-jest/src/base.mjs) | Core Jest configuration for Node.js and TypeScript.                    |
+| [`dom`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-jest/src/dom.mjs)                                                                                 | Specialized configuration for browser-like environments (JSDOM).       |
+| [`strict`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-jest/src/strict.mjs)                                                                           | Opinionated high-performance setup using SWC and strict type checking. |
 
 ## 🏗️ Installation
 
@@ -32,14 +39,6 @@ You have to install **@types/jest** if you want to write Jest tests in TypeScrip
     * **jest-environment-jsdom**
 * **strict**:
     * **@swc/jest**
-
-* **base**:
-    * _No more dependencies needed_
-* **dom**:
-    * **jest-environment-jsdom**
-* **strict**:
-    * **@swc/jest**
-    * @swc/core ?
 
 ## 🚀 Getting started
 
@@ -64,4 +63,4 @@ export default {
 Please refer to the [Root README](https://github.com/vbetsch/lib-config-ts/blob/master/README.md) for contribution
 guidelines.
 
-[© 2026 vbetsch — MIT License](LICENSE)
+[© 2026 vbetsch — MIT License](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-jest/LICENSE)

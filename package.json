@@ -9,7 +9,7 @@
       "prettier",
       "jest"
   ],
-  "license": "",
+  "license": "MIT",
   "name": "@vbetsch/lib-config-ts",
   "private": true,
   "version": "1.0.0",

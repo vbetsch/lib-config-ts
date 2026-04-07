@@ -1,5 +1,12 @@
 # @vbetsch/config-eslint
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
+
+[//]: # ([![github: forks]&#40;https://img.shields.io/github/forks/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
+[//]: # ([![github: stars]&#40;https://img.shields.io/github/stars/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
 A modular and extensible ESLint configuration collection for TypeScript projects, designed to enforce high code quality
 standards while remaining flexible.
 
@@ -9,12 +16,12 @@ This package provides several configuration modules that can be composed to fit 
 
 | Module                             | Description                                          |
 |------------------------------------|------------------------------------------------------|
-| [`base`](src/base.mjs)             | Core TypeScript rules and best practices.            |
-| [`jsx`](src/jsx.mjs)               | Specialized rules for React and JSX accessibility.   |
-| [`naming`](src/naming.mjs)         | Enforces strict and consistent naming conventions.   |
-| [`prettier`](src/prettier.mjs)     | Disables conflicting rules and integrates Prettier.  |
-| [`spellcheck`](src/spellcheck.mjs) | Checks for common typos in identifiers and comments. |
-| [`strict`](src/strict.mjs)         | Opinionated rules for maximum type safety and rigor. |
+| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/base.mjs)             | Core TypeScript rules and best practices.            |
+| [`jsx`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/jsx.mjs)               | Specialized rules for React and JSX accessibility.   |
+| [`naming`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/naming.mjs)         | Enforces strict and consistent naming conventions.   |
+| [`prettier`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/prettier.mjs)     | Disables conflicting rules and integrates Prettier.  |
+| [`spellcheck`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/spellcheck.mjs) | Checks for common typos in identifiers and comments. |
+| [`strict`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/strict.mjs)         | Opinionated rules for maximum type safety and rigor. |
 
 ## 🏗️ Installation
 
@@ -59,7 +66,7 @@ export default tseslint.config(
   ...baseVbetsch,
   ...strictVbetsch,
   ...prettierVbetsch,
-        
+
   // IMPORTANT: You have to add these lines only for the strict module !
   {
     languageOptions: {
@@ -81,4 +88,4 @@ export default tseslint.config(
 Please refer to the [Root README](https://github.com/vbetsch/lib-config-ts/blob/master/README.md) for contribution
 guidelines.
 
-[© 2026 vbetsch — MIT License](LICENSE)
+[© 2026 vbetsch — MIT License](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/LICENSE)
