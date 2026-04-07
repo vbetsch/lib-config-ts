@@ -3,7 +3,7 @@ name: CD - Publish to NPM
 on:
   push:
     branches:
-      - main # Ne se déclenche que sur la branche main
+      - main
 
 jobs:
   publish:
@@ -23,14 +23,10 @@ jobs:
 
       - name: Publish Packages
         run: |
-          # On boucle sur chaque dossier dans packages/
           for dir in src/packages/*; do
             if [ -d "$dir" ]; then
               echo "Processing $dir..."
               cd $dir
-              # On tente de publier. 
-              # Si la version existe déjà sur NPM, la commande échouera, 
-              # donc on ajoute || true pour passer au package suivant.
               npm publish --access public || echo "Skip: Version already published for $(basename $dir)"
               cd - > /dev/null
             fi
