@@ -46,7 +46,6 @@ You have to install **@types/jest** if you want to write Jest tests in TypeScrip
     * **jest-environment-jsdom**
 * **strict**:
     * **@swc/jest**
-    * @swc/core ?
 
 ## 🚀 Getting started
 
