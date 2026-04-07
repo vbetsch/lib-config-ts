@@ -14,13 +14,13 @@ development and production builds.
 
 This package provides several configuration modules that can be composed to fit your project's needs:
 
-| Module                              | Description                                             |
-|-------------------------------------|---------------------------------------------------------|
-| [`base`](src/base.json)             | Core TypeScript configuration for modern environments.  |
-| [`jsx`](src/jsx.json)               | Specialized settings for React and JSX projects.        |
-| [`strict`](src/strict.json)         | Opinionated settings for maximum type safety and rigor. |
-| [`build/base`](src/build/base.json) | Base configuration dedicated to the build process.      |
-| [`build/lib`](src/build/lib.json)   | Optimized settings for building TypeScript libraries.   |
+| Module                                                                                                    | Description                                             |
+|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/base.json) | Core TypeScript configuration for modern environments.  |
+| [`jsx`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/jsx.json)                                                                                     | Specialized settings for React and JSX projects.        |
+| [`strict`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/strict.json)                                                                               | Opinionated settings for maximum type safety and rigor. |
+| [`build/base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/build/base.json)                                                                       | Base configuration dedicated to the build process.      |
+| [`build/lib`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/build/lib.json)                                                                         | Optimized settings for building TypeScript libraries.   |
 
 ## 🏗️ Installation
 
@@ -86,4 +86,4 @@ directory if exist.
 Please refer to the [Root README](https://github.com/vbetsch/lib-config-ts/blob/master/README.md) for contribution
 guidelines.
 
-[© 2026 vbetsch — MIT License](LICENSE)
+[© 2026 vbetsch — MIT License](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/LICENSE)

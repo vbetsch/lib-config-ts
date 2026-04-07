@@ -14,9 +14,9 @@ your entire codebase.
 
 This package provides several configuration modules that can be composed to fit your project's needs:
 
-| Module                 | Description                                                          |
-|------------------------|----------------------------------------------------------------------|
-| [`base`](src/base.mjs) | Core Prettier rules (single quotes, 100-character line width, etc.). |
+| Module                                                                                                   | Description                                                          |
+|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-prettier/src/base.mjs) | Core Prettier rules (single quotes, 100-character line width, etc.). |
 
 ## 🏗️ Installation
 
@@ -47,4 +47,4 @@ export default {
 Please refer to the [Root README](https://github.com/vbetsch/lib-config-ts/blob/master/README.md) for contribution
 guidelines.
 
-[© 2026 vbetsch — MIT License](LICENSE)
+[© 2026 vbetsch — MIT License](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-prettier/LICENSE)

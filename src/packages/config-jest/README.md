@@ -14,11 +14,11 @@ transformers like SWC.
 
 This package provides several configuration modules that can be composed to fit your project's needs:
 
-| Module                     | Description                                                            |
-|----------------------------|------------------------------------------------------------------------|
-| [`base`](src/base.mjs)     | Core Jest configuration for Node.js and TypeScript.                    |
-| [`dom`](src/dom.mjs)       | Specialized configuration for browser-like environments (JSDOM).       |
-| [`strict`](src/strict.mjs) | Opinionated high-performance setup using SWC and strict type checking. |
+| Module                                                                                               | Description                                                            |
+|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-jest/src/base.mjs) | Core Jest configuration for Node.js and TypeScript.                    |
+| [`dom`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-jest/src/dom.mjs)                                                                                 | Specialized configuration for browser-like environments (JSDOM).       |
+| [`strict`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-jest/src/strict.mjs)                                                                           | Opinionated high-performance setup using SWC and strict type checking. |
 
 ## 🏗️ Installation
 
@@ -63,4 +63,4 @@ export default {
 Please refer to the [Root README](https://github.com/vbetsch/lib-config-ts/blob/master/README.md) for contribution
 guidelines.
 
-[© 2026 vbetsch — MIT License](LICENSE)
+[© 2026 vbetsch — MIT License](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-jest/LICENSE)
