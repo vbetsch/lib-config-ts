@@ -1,5 +1,12 @@
 # @vbetsch/config-prettier
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
+
+[//]: # ([![github: forks]&#40;https://img.shields.io/github/forks/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
+[//]: # ([![github: stars]&#40;https://img.shields.io/github/stars/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
 A standardized Prettier configuration for TypeScript projects, ensuring consistent code style and readability across
 your entire codebase.
 
@@ -7,9 +14,9 @@ your entire codebase.
 
 This package provides several configuration modules that can be composed to fit your project's needs:
 
-| Module                 | Description                                                          |
-|------------------------|----------------------------------------------------------------------|
-| [`base`](src/base.mjs) | Core Prettier rules (single quotes, 100-character line width, etc.). |
+| Module                                                                                                   | Description                                                          |
+|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-prettier/src/base.mjs) | Core Prettier rules (single quotes, 100-character line width, etc.). |
 
 ## 🏗️ Installation
 
@@ -24,10 +31,11 @@ npm install -D @vbetsch/config-prettier
 To use these configurations, import them into your flat `.prettierrc.mjs` file:
 
 ```js
-import base from '@vbetsch/config-prettier';
+// NOTE: You can name imports like you want
+import baseVbetsch from '@vbetsch/config-prettier';
 
 export default {
-  ...base,
+  ...baseVbetsch,
 };
 ```
 
@@ -39,4 +47,4 @@ export default {
 Please refer to the [Root README](https://github.com/vbetsch/lib-config-ts/blob/master/README.md) for contribution
 guidelines.
 
-[© 2026 vbetsch — MIT License](LICENSE)
+[© 2026 vbetsch — MIT License](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-prettier/LICENSE)

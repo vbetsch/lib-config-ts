@@ -2,6 +2,7 @@
     "author": "vbetsch",
     "description": "My ESLint configuration files",
     "exports": {
+        ".": "./src/base.mjs",
         "./base": "./src/base.mjs",
         "./jsx": "./src/jsx.mjs",
         "./naming": "./src/naming.mjs",
@@ -17,7 +18,7 @@
         "typescript",
         "eslint"
     ],
-    "license": "",
+    "license": "MIT",
     "name": "@vbetsch/config-eslint",
     "peerDependencies": {
         "@eslint/js": "^9.0.0",
@@ -31,10 +32,16 @@
         "typescript-eslint": "^8.56.1"
     },
     "peerDependenciesMeta": {
+        "eslint-config-prettier": {
+            "optional": true
+        },
         "eslint-plugin-import": {
             "optional": true
         },
         "eslint-plugin-jsx-a11y": {
+            "optional": true
+        },
+        "eslint-plugin-prettier": {
             "optional": true
         },
         "eslint-plugin-react": {
@@ -43,6 +50,13 @@
         "eslint-plugin-spellcheck": {
             "optional": true
         }
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vbetsch/lib-config-ts.git"
     },
     "type": "module",
     "version": "1.0.0"

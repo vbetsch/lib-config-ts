@@ -1,5 +1,12 @@
 # @vbetsch/config-tsconfig
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
+
+[//]: # ([![github: forks]&#40;https://img.shields.io/github/forks/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
+[//]: # ([![github: stars]&#40;https://img.shields.io/github/stars/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+
 A collection of modular and extensible TSConfig files for TypeScript projects, providing a solid foundation for
 development and production builds.
 
@@ -7,13 +14,13 @@ development and production builds.
 
 This package provides several configuration modules that can be composed to fit your project's needs:
 
-| Module                              | Description                                             |
-|-------------------------------------|---------------------------------------------------------|
-| [`base`](src/base.json)             | Core TypeScript configuration for modern environments.  |
-| [`jsx`](src/jsx.json)               | Specialized settings for React and JSX projects.        |
-| [`strict`](src/strict.json)         | Opinionated settings for maximum type safety and rigor. |
-| [`build/base`](src/build/base.json) | Base configuration dedicated to the build process.      |
-| [`build/lib`](src/build/lib.json)   | Optimized settings for building TypeScript libraries.   |
+| Module                                                                                                    | Description                                             |
+|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/base.json) | Core TypeScript configuration for modern environments.  |
+| [`jsx`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/jsx.json)                                                                                     | Specialized settings for React and JSX projects.        |
+| [`strict`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/strict.json)                                                                               | Opinionated settings for maximum type safety and rigor. |
+| [`build/base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/build/base.json)                                                                       | Base configuration dedicated to the build process.      |
+| [`build/lib`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/build/lib.json)                                                                         | Optimized settings for building TypeScript libraries.   |
 
 ## 🏗️ Installation
 
@@ -26,6 +33,17 @@ npm install -D @vbetsch/config-tsconfig
 > **Note**: Depending on the modules you use (e.g. jsx), you must also install the corresponding peer
 > dependencies like @types/react.
 
+* **base**:
+    * _No more dependencies needed_
+* **jsx**:
+    * **@types/react**
+* **strict**:
+    * _No more dependencies needed_
+* **build/base**:
+    * _No more dependencies needed_
+* **build/lib**:
+    * _No more dependencies needed_
+
 ## 🚀 Getting started
 
 To use these configurations, extend them in your `tsconfig.json` file:
@@ -33,8 +51,8 @@ To use these configurations, extend them in your `tsconfig.json` file:
 ```json
 {
     "extends": [
-        "@vbetsch/lib-config-ts/tsconfig/base",
-        "@vbetsch/lib-config-ts/tsconfig/strict"
+        "@vbetsch/config-tsconfig/base",
+        "@vbetsch/config-tsconfig/strict"
     ]
 }
 ```
@@ -50,8 +68,8 @@ directory if exist.
 {
     "extends": [
         "./tsconfig.json",
-        "@vbetsch/lib-config-ts/tsconfig/build/base",
-        "@vbetsch/lib-config-ts/tsconfig/build/lib"
+        "@vbetsch/config-tsconfig/build/base",
+        "@vbetsch/config-tsconfig/build/lib"
     ],
     "compilerOptions": {
         // IMPORTANT: You have to define it !
@@ -68,4 +86,4 @@ directory if exist.
 Please refer to the [Root README](https://github.com/vbetsch/lib-config-ts/blob/master/README.md) for contribution
 guidelines.
 
-[© 2026 vbetsch — MIT License](LICENSE)
+[© 2026 vbetsch — MIT License](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/LICENSE)
