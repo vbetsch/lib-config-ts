@@ -26,7 +26,7 @@ export default {
     /** Prevent the use of 'any' type to maintain type safety */
     '@typescript-eslint/no-explicit-any': 'error',
     /** Enforce expliciting types instead of infer them */
-    '@typescript-eslint/no-inferrable-types': 'error',
+    '@typescript-eslint/no-inferrable-types': 'off',
     /** Warn about the use of magic numbers (non-named constants) */
     '@typescript-eslint/no-magic-numbers': ['warn', {ignoreEnums: true, ignore: [0, 1], enforceConst: true}],
     /** Prevent using variables or functions before they are defined */
