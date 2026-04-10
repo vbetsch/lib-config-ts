@@ -1,19 +1,22 @@
 {
-  "author": "vbetsch",
-  "description": "My TypeScript configuration files",
-  "keywords": [
-      "configuration",
-      "typescript",
-      "tsconfig",
-      "eslint",
-      "prettier",
-      "jest"
-  ],
-  "license": "MIT",
-  "name": "@vbetsch/lib-config-ts",
-  "private": true,
-  "version": "1.0.0",
-  "workspaces": [
-    "src/packages/*"
-  ]
+    "author": "vbetsch",
+    "description": "My TypeScript configuration files",
+    "engines": {
+        "node": ">=24.14.1"
+    },
+    "keywords": [
+        "configuration",
+        "typescript",
+        "tsconfig",
+        "eslint",
+        "prettier",
+        "jest"
+    ],
+    "license": "MIT",
+    "name": "@vbetsch/lib-config-ts",
+    "private": true,
+    "version": "1.0.0",
+    "workspaces": [
+        "src/packages/*"
+    ]
 }
