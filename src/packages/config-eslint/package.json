@@ -1,6 +1,9 @@
 {
     "author": "vbetsch",
     "description": "My ESLint configuration files",
+    "engines": {
+        "node": "24.14.1"
+    },
     "exports": {
         ".": "./src/base.mjs",
         "./base": "./src/base.mjs",

@@ -1,6 +1,9 @@
 {
     "author": "vbetsch",
     "description": "My tsconfig configuration files",
+    "engines": {
+        "node": "24.14.1"
+    },
     "exports": {
         ".": "./src/base.json",
         "./base": "./src/base.json",
