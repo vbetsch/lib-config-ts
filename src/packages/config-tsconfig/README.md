@@ -2,10 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
-
-[//]: # ([![github: forks]&#40;https://img.shields.io/github/forks/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
-
-[//]: # ([![github: stars]&#40;https://img.shields.io/github/stars/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+[![npm package version](https://img.shields.io/npm/v/@vbetsch/config-tsconfig)](https://www.npmjs.com/package/@vbetsch/config-tsconfig)
+[![npm downloads number per week](https://img.shields.io/npm/dw/@vbetsch/config-tsconfig)](https://www.npmjs.com/package/@vbetsch/config-tsconfig)
+[![npm package install size](https://packagephobia.com/badge?p=@vbetsch/config-tsconfig)](https://www.npmjs.com/package/@vbetsch/config-tsconfig)
 
 A collection of modular and extensible TSConfig files for TypeScript projects, providing a solid foundation for
 development and production builds.
@@ -14,15 +13,17 @@ development and production builds.
 
 This package provides several configuration modules that can be composed to fit your project's needs:
 
-| Module                                                                                                    | Description                                             |
-|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/base.json) | Core TypeScript configuration for modern environments.  |
-| [`jsx`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/jsx.json)                                                                                     | Specialized settings for React and JSX projects.        |
-| [`strict`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/strict.json)                                                                               | Opinionated settings for maximum type safety and rigor. |
-| [`build/base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/build/base.json)                                                                       | Base configuration dedicated to the build process.      |
-| [`build/lib`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/build/lib.json)                                                                         | Optimized settings for building TypeScript libraries.   |
+| Module                                                                                                                | Description                                             |
+|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/base.json)             | Core TypeScript configuration for modern environments.  |
+| [`jsx`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/jsx.json)               | Specialized settings for React and JSX projects.        |
+| [`strict`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/strict.json)         | Opinionated settings for maximum type safety and rigor. |
+| [`build/base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/build/base.json) | Base configuration dedicated to the build process.      |
+| [`build/lib`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-tsconfig/src/build/lib.json)   | Optimized settings for building TypeScript libraries.   |
 
 ## 🏗️ Installation
+
+The recommended version of Node.js is the [lts/krypton -> v24.14.1](https://nodejs.org/en/blog/release/v24.14.1).
 
 Install the NPM package in your project:
 
