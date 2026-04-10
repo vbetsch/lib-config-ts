@@ -1,6 +1,7 @@
 # lib-config-ts
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Deployment](https://github.com/vbetsch/lib-config-ts/workflows/Deployment/badge.svg)](https://github.com/vbetsch/lib-config-ts/actions?query=workflow%3ADeployment+)
 
 This repository is a monorepo powered by [NPM Workspaces](https://docs.npmjs.com/cli/using-npm/workspaces). It allows
 you to install only the specific configuration blocks you need, eliminating unnecessary dependency overhead in your
