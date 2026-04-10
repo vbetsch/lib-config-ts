@@ -5,7 +5,7 @@ import js from '@eslint/js';
 export default tseslint.config(
   {
     /** Globally ignore build artifacts and dependency folders for all projects */
-    ignores: ['**/node_modules/**', '**/dist/**', './*.mjs'],
+    ignores: ['**/node_modules/**', '**/dist/**', '**/coverage/**', './*.mjs'],
   },
 
   /** Provides the standard JavaScript recommended rules (e.g., preventing reassignment of constants).*/
