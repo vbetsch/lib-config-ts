@@ -18,9 +18,6 @@ jobs:
           node-version: '22.17.1'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Publish Packages
         run: |
           for dir in src/packages/*; do
