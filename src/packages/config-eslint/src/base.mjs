@@ -1,8 +1,7 @@
 import tseslint from 'typescript-eslint';
 import js from '@eslint/js';
 
-/** We use tseslint.config() utility to provide type safety and autocompletion. */
-export default tseslint.config(
+export default [
   {
     /** Globally ignore build artifacts and dependency folders for all projects */
     ignores: ['**/node_modules/**', '**/dist/**', '**/coverage/**', './*.mjs'],
@@ -29,4 +28,4 @@ export default tseslint.config(
       'no-unused-vars': 'off',
     },
   },
-);
+];
