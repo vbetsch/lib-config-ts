@@ -2,10 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![github: repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/vbetsch/lib-config-ts)
-
-[//]: # ([![github: forks]&#40;https://img.shields.io/github/forks/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
-
-[//]: # ([![github: stars]&#40;https://img.shields.io/github/stars/vbetsch/lib-config-ts&#41;]&#40;https://github.com/vbetsch/lib-config-ts&#41;)
+[![npm package version](https://img.shields.io/npm/v/@vbetsch/config-eslint)](https://www.npmjs.com/package/@vbetsch/config-eslint)
+[![npm downloads number per week](https://img.shields.io/npm/dw/@vbetsch/config-eslint)](https://www.npmjs.com/package/@vbetsch/config-eslint)
+[![npm package install size](https://packagephobia.com/badge?p=@vbetsch/config-eslint)](https://www.npmjs.com/package/@vbetsch/config-eslint)
 
 A modular and extensible ESLint configuration collection for TypeScript projects, designed to enforce high code quality
 standards while remaining flexible.
@@ -14,8 +13,8 @@ standards while remaining flexible.
 
 This package provides several configuration modules that can be composed to fit your project's needs:
 
-| Module                             | Description                                          |
-|------------------------------------|------------------------------------------------------|
+| Module                                                                                                             | Description                                          |
+|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`base`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/base.mjs)             | Core TypeScript rules and best practices.            |
 | [`jsx`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/jsx.mjs)               | Specialized rules for React and JSX accessibility.   |
 | [`naming`](https://github.com/vbetsch/lib-config-ts/blob/master/src/packages/config-eslint/src/naming.mjs)         | Enforces strict and consistent naming conventions.   |
