@@ -1,6 +1,9 @@
 {
     "author": "vbetsch",
     "description": "My ESLint configuration files",
+    "engines": {
+        "node": "24.14.1"
+    },
     "exports": {
         ".": "./src/base.mjs",
         "./base": "./src/base.mjs",
@@ -59,5 +62,5 @@
         "url": "https://github.com/vbetsch/lib-config-ts.git"
     },
     "type": "module",
-    "version": "1.0.3"
+    "version": "1.0.4"
 }

@@ -24,7 +24,7 @@ The [templates](src/templates) folder provides ready-to-use configuration boiler
 
 ## 🏗️ Installation
 
-The recommended version of Node.js is the [lts/krypton -> v24.14.1](https://nodejs.org/en/blog/release/v24.14.1).
+It is recommended that you use Node version [lts/krypton -> v24.14.1](https://nodejs.org/en/blog/release/v24.14.1) or later.
 
 Refer to the individual module READMEs for specific installation instructions.
 

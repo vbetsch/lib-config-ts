@@ -21,7 +21,7 @@ This package provides several configuration modules that can be composed to fit 
 
 ## 🏗️ Installation
 
-The recommended version of Node.js is the [lts/krypton -> v24.14.1](https://nodejs.org/en/blog/release/v24.14.1).
+We recommend using Node version [lts/krypton -> v24.14.1](https://nodejs.org/en/blog/release/v24.14.1).
 
 Install the NPM package in your project:
 
