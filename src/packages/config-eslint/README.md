@@ -58,12 +58,11 @@ To use these configurations, import them into your flat `eslint.config.mjs` file
 
 ```js
 // NOTE: You can name imports like you want
-import tseslint from 'typescript-eslint';
 import baseVbetsch from '@vbetsch/config-eslint/base';
 import prettierVbetsch from '@vbetsch/config-eslint/prettier';
 import strictVbetsch from '@vbetsch/config-eslint/strict';
 
-export default tseslint.config(
+export default [
   ...baseVbetsch,
   ...strictVbetsch,
   ...prettierVbetsch,
@@ -77,7 +76,7 @@ export default tseslint.config(
       },
     },
   },
-);
+];
 
 ```
 
