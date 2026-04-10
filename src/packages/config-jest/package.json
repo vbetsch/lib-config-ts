@@ -1,6 +1,9 @@
 {
     "author": "vbetsch",
     "description": "My Jest configuration files",
+    "engines": {
+        "node": "24.14.1"
+    },
     "exports": {
         ".": "./src/base.mjs",
         "./base": "./src/base.mjs",
@@ -39,5 +42,5 @@
         "url": "https://github.com/vbetsch/lib-config-ts.git"
     },
     "type": "module",
-    "version": "1.0.1"
+    "version": "1.0.2"
 }

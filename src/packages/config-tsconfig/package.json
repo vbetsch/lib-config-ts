@@ -1,6 +1,9 @@
 {
     "author": "vbetsch",
     "description": "My tsconfig configuration files",
+    "engines": {
+        "node": "24.14.1"
+    },
     "exports": {
         ".": "./src/base.json",
         "./base": "./src/base.json",
@@ -26,5 +29,5 @@
         "url": "https://github.com/vbetsch/lib-config-ts.git"
     },
     "type": "module",
-    "version": "1.0.2"
+    "version": "1.0.3"
 }
