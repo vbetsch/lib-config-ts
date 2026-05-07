@@ -25,11 +25,6 @@ export default {
     },
   },
 
-  /** A map from regular expressions to module names or to arrays of module names that allow to stub out resources */
-  moduleNameMapper: {
-    '^.+\\.(css|sass|scss)$': 'identity-obj-proxy',
-  },
-
   /** A preset that is used as a base for Jest's configuration */
   preset: 'ts-jest',
 

@@ -35,6 +35,9 @@
         "@testing-library/jest-dom": {
             "optional": true
         },
+        "identity-obj-proxy": {
+            "optional": true
+        },
         "jest-environment-jsdom": {
             "optional": true
         }
