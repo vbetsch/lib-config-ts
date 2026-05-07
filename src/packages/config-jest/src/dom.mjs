@@ -1,5 +1,5 @@
 export default {
-  /** Allow styles files import in jsx */
+  /** Allow styles files imports in jsx */
   moduleNameMapper: {
     '^.+\\.(css|sass|scss)$': 'identity-obj-proxy',
   },
