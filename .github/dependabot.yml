@@ -22,6 +22,10 @@ updates:
     schedule:
       interval: "weekly"
   - package-ecosystem: "npm"
+    directory: "/src/packages/config-prettier"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
     directory: "/src/packages/config-tsconfig"
     schedule:
       interval: "weekly"
