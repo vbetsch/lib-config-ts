@@ -24,7 +24,7 @@ The [templates](src/templates) folder provides ready-to-use configuration boiler
 
 ## 🏗️ Installation
 
-It is recommended that you use Node version [lts/krypton -> v24.14.1](https://nodejs.org/en/blog/release/v24.14.1) or later.
+**Node.js 24 is required**. Install the latest **24.x** LTS release from [nodejs.org](https://nodejs.org).
 
 Refer to the individual module READMEs for specific installation instructions.
 
